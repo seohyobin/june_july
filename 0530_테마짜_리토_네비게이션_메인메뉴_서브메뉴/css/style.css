@@ -1,0 +1,205 @@
+@import url("../css/fonts.css");
+@import url("../css/reset.css");
+@import url("../css/header.css");
+#wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#wrap #header {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 35px;
+  height: 80px;
+  background-color: #232323;
+}
+#wrap #header .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #header .container .left {
+  width: 111px;
+  height: 100%;
+}
+#wrap #header .container .left h1 {
+  width: 100%;
+}
+#wrap #header .container .left h1 a {
+  width: 100%;
+  display: block;
+}
+#wrap #header .container .left h1 a img {
+  width: 111px;
+  height: 36px;
+}
+#wrap #header .container .center {
+  width: 1200px;
+  height: 100%;
+  padding: 0 15px;
+}
+#wrap #header .container .center nav {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#wrap #header .container .center nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#wrap #header .container .center nav ul li {
+  height: 100%;
+  padding: 0 22px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#wrap #header .container .center nav ul li > a {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+#wrap #header .container .center nav ul li > a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+#wrap #header .container .center nav ul li .sub {
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 80px;
+  width: 901.625px;
+  margin: 0 0 0 -450.8125px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#wrap #header .container .center nav ul li .sub .container {
+  padding: 50px 65px;
+  width: 100%;
+}
+#wrap #header .container .center nav ul li .sub .container ul {
+  display: flex;
+  width: 100%;
+}
+#wrap #header .container .center nav ul li .sub .container ul li {
+  width: 25%;
+}
+#wrap #header .container .center nav ul li .sub .container ul li dl dt a {
+  text-align: left;
+  display: block;
+  line-height: 250%;
+  font-size: 13px;
+  font-weight: 600;
+  color: #828282;
+}
+#wrap #header .container .center nav ul li .sub .container ul li dl dd a {
+  display: block;
+  line-height: 280%;
+  font-size: 13px;
+  font-weight: 500;
+  color: #828282;
+}
+#wrap #header .container .center nav ul li .sub .container ul li dl dd a:hover {
+  color: #000;
+}
+#wrap #header .container .center nav ul li .sub.sub1 {
+  display: none;
+}
+#wrap #header .container .center nav ul li .sub.sub2 {
+  display: block;
+  width: 240px;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container {
+  padding: 50px 65px;
+  width: 100%;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul {
+  display: block;
+  width: 100%;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li {
+  width: 100%;
+  line-height: 100%;
+  padding: 5px 0;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li a {
+  position: relative;
+  display: block;
+  color: #000;
+  padding: 8px 0;
+  align-items: center;
+  justify-content: space-between;
+  color: #828282;
+  transition: all 0.3s;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 0 0 1px;
+  display: none;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub.sub3-1 {
+  display: block;
+  top: 0px;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub.sub2-2 {
+  display: none;
+  top: 41px;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub.sub2-3 {
+  display: none;
+  top: 82px;
+  padding: 0 0 0 15px;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub.sub2-4 {
+  display: none;
+  top: 123px;
+  display: block;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub.sub3-6 {
+  display: block;
+}
+#wrap #header .container .center nav ul li .sub.sub2 .container ul li .container ul li .sub-sub.sub5-6 {
+  display: block;
+}
+#wrap #header .container .right {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#wrap #header .container .right a {
+  margin: 0 0 0 15px;
+  color: #fff;
+}
+#wrap #header .container .right a i {
+  opacity: 0;
+}
+#wrap #main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#wrap #main #section1 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/home-interior-design-slider-img01.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #footer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}

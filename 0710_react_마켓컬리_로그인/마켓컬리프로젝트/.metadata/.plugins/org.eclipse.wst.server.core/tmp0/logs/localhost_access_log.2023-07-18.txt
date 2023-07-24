@@ -1,0 +1,4 @@
+127.0.0.1 - - [18/Jul/2023:13:56:52 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:57:29 +0900] "POST /kurly/user_signin_action.jsp?user_id=janeseo0530&user_pw=asdfasdfasdf+ HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:59:14 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaa+ HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [18/Jul/2023:13:59:18 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 404 817

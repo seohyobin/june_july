@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/write.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <span class="home">
+                 <a href="./index.html">HOME</a>
+            </span>
+           <span class="view">
+               <a href="/list.do">글목록</a>
+           </span>
+        </nav>
+    </header>
+
+    <div id="write">
+        <div class="container">
+            <div class="title">
+                <h2>FORM MAIL</h2>
+            </div>
+            <form name="writeForm" id="writeForm" action="view.do" method="post">
+                <ul>
+                    <li>
+                        <input type="text" name="userName" id="userName" placeholder="이름을 입력하세요">
+                    </li>
+                    <li>
+                        <input type="text" name="userHp" id="userHp" placeholder="전화번호를 입력하세요">
+                    </li>
+                    <li>
+                        <input type="text" name="userEmail" id="userEmail" placeholder="이메일을 입력하세요">
+                    </li>
+                    <li>
+                        <input type="text" name="userSubject" id="userSubject" placeholder="제목을 입력하세요">
+                    </li>
+                    <li>
+                        <textarea name="userContent" id="userContent" placeholder="내용을 입력하세요">
+                        </textarea>
+                    </li>
+                    <li>
+                        <button type="submit">저장</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

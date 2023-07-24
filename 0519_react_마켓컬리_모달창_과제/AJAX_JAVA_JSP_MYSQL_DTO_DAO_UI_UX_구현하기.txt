@@ -1,0 +1,26 @@
+****마켓컬리 회원관리 
+0.화면디자인설계 UI UX(회원관리 폼, 로그인 ... )
+1.테이블 생성(더미 데이터 입력하기 )
+
+CREATE TABLE `signup_table` (
+  `idx` int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '자동증가번호',
+  `user_id` varchar(16) COLLATE utf8mb4_general_ci NOT NULL COMMENT '아이디',
+  `user_pw` varchar(16) COLLATE utf8mb4_general_ci NOT NULL COMMENT '비밀번호',
+  `user_name` varchar(100) COLLATE utf8mb4_general_ci NOT NULL COMMENT '이름',
+  `user_email` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '이메일',
+  `user_hp` varchar(13) COLLATE utf8mb4_general_ci NOT NULL COMMENT '휴대폰',
+  `user_address` varchar(500) COLLATE utf8mb4_general_ci NOT NULL COMMENT '주소',
+  `user_gender` varchar(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '성별',
+  `user_birth` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '생년월일',
+  `user_chooga` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '추가입력사항',
+  `user_service` varchar(1000) COLLATE utf8mb4_general_ci NOT NULL COMMENT '이용약관동의',
+  `user_sign_up_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL COMMENT '가입일자'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='마켓컬리_회원가입_form';
+
+2.DTO생성
+
+3.DAO생성(라이브러리 드라이버 .JAR파일 넣고 JDBC 드라이버로드와 DB커넥션 테스트)
+4.회원가입폼 입력데이터 객체 만들기 
+5.JSP 액션파일 만들기( import DTO , DAO ) , CORS 헤더 작성
+6.입력 데이터 AJAX로 JSP 액션파일로 전송 테스트 하기 
+7.입력 데이터 AJAX로 JSP 액션파일로 전송 그리고 테이블 저장 데이터 확인하기

@@ -1,0 +1,375 @@
+#wrap{
+    width: 100%;
+    .intro{
+        width: 100%;
+        #section1{
+            width: 100%;
+            .container{
+            width: 100%;
+                .gap{
+                    width: 100%;
+                    .content{
+                        width: 100%;
+                        .slide_container{
+                            width: 100%;
+                            position: relative;
+                            .slide-view{
+                                width:100%;
+                                overflow: hidden;
+                                position: relative; 
+                                z-index: 1;
+                                .slide-wrap{
+                                    width: 100% * 25;
+                                    display: flex;
+                                    margin:  0 0 0 -100%;
+                                    position: relative;
+                                    // 아니면 transform -> translate X 로 이동!!
+                                    .slide{
+                                        width: 100%;
+                                        a{
+                                            display: block;
+                                            width: 100%;
+                                            img{width: 100%;}
+                                        }
+                                    }
+                                }
+                            }
+                            .left-arrow-btn {
+                                display: none;
+                                position: absolute;
+                                top:45%;
+                                left:15%;
+                                z-index: 2;
+                                transform: rotate(180deg);
+                            }
+                            .right-arrow-btn {
+                                display: none;
+                                position: absolute;
+                                top:45%;
+                                right:15%;
+                                z-index: 2;
+                            }
+                            .page-count-box {
+                                position: absolute;
+                                z-index: 2;
+                                bottom:60px;
+                                left:50%;
+                                margin: 0 0 0 370px;
+                                background: rgba(0,0,0, 0.2);
+                                padding: 5px 15px;
+                                border-radius: 12px;
+                                em {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color:#fff;
+                                }
+                                i { font-size: 14px;
+                                    font-weight: 500;
+                                    color:#fff;
+                                    margin: 0 5px;
+                                }
+                            }
+                        }
+                      
+                    }
+                }
+            }
+        }
+        #sectionTopBanner{
+            width: 100%;
+            padding: 80px 0 0 0 ;
+            .container{
+                width: 100%;
+                max-width:1050px ;
+                margin: 0 auto;
+
+                .gap{
+                    .content{
+                        width: 100%;
+                        a{
+                            width: 100%;
+                            display: block;
+                            img {
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section2{
+            width: 100%; 
+            padding: 80px 0;
+            position: relative;
+            .container{
+                width: 100%;
+                max-width: 1068px;
+                margin: 0 auto;  
+                position: relative;
+                z-index: 1;
+                .gap{
+                    width: 100%;
+                    .title{
+                        width: 100%;
+                        padding: 0 0 40px 0;
+                        h2{
+                            text-align: center;
+                            font-size: 28px; 
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+                    .content{
+                        width: 100%;
+                        .slide-container{
+                            width: 100%;
+                            .slide-view{
+                                width: 100%;
+                                overflow: hidden;
+                                .slide-wrap{
+                                    width: 25% *36;
+                                    display: flex;
+                                    margin: 0 0 0 (-25% * 8);
+                                    position: relative;
+                                    .slide{
+                                        width: 25%;
+                                        .col-gal{
+                                            padding: 0 9px;
+                                            a{
+                                                display: block;
+                                                width: 100%;
+                                                //width auto => margin 0 9px 가능
+                                                .img-box{
+                                                    width: 100%;
+                                                    position: relative;
+                                                    > img{
+                                                        width: 249px;
+                                                        height: 320px;
+                                                        z-index: 1;
+                                                        position: relative;
+                                                    }
+                                                    > span{
+                                                        position: absolute;
+                                                        right: 15px;
+                                                        bottom: 15px;
+                                                        z-index: 2;
+                                                        img{
+                                                            width: auto;
+                                                        }
+                                                    }
+                                                }
+                                                .tex-box{
+                                                    width: 100%;
+                                                     ul{
+                                                    width: 100%;
+                                                    padding: 15px 0 0 0 ;
+                                                    li{
+                                                        width: 100%;
+                                                        padding: 5px 0 ;
+                                                        &:first-child{
+                                                            font-size: 14px; 
+                                                            color: #999;
+                                                        }
+                                                        &:nth-child(3){
+                                                            font-size: 12px;
+                                                            color: #999;
+                                                        }
+                                                        strong,em{
+                                                            font-size: 16px; color: #333; font-weight: 600;
+                                                        }
+                                                        span{
+                                                            &.rate-price{
+                                                                color: #fa622f;
+                                                                font-size: 16px;
+                                                                font-weight: 800;
+                                                            }
+                                                            &.pan-price{
+                                                                font-size: 16px;
+                                                                color: #333;
+                                                                font-weight: 800;
+                                                            }
+                                                        }
+                                                        s{
+                                                            font-size: 14px;
+                                                            color: #b5b5b5;
+                                                        }
+                                                        &:last-child{
+                                                            padding: 2px 8px 4px 8px;
+                                                            width: 75.75px;
+                                                            height: 22px;
+                                                            color: #5f0080;
+                                                            font-size: 12px;
+                                                            font-weight: 500;
+                                                           
+                                                        }
+
+                                                    }
+                                                }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .left-arrorw-btn {
+                position: absolute;
+                left: 50%;
+                top: 275px;
+                margin: 0 0 0 -557px;
+                z-index: 2;
+                img {
+                    width:auto;
+                }
+            }
+            .right-arrorw-btn {
+                position: absolute;
+                right: 50%;
+                top: 275px;
+                margin: 0 -557px 0 0;
+                z-index: 2;
+                transform: rotate(180deg);
+                img {
+                    width:auto;
+                }
+            }
+        }
+        #section3{
+            width: 100%;
+            padding: 80px 0 ;
+            .container{
+                width: 100%;
+                max-width: 1068px;
+                margin: 0 auto;
+                .gap{
+                    width: 100%;
+                    .content{
+                        width: 100%;
+                        display: flex;
+                        .left{
+                            width: 25%;
+                            ul{
+                                margin: 0 9px;
+                                li{
+                                    &:nth-child(3){
+                                        padding: 30px 0 50px 0 ;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    h2{
+                                        font-size: 28px; 
+                                        color: #333; 
+                                        font-weight: 500;}
+                                    h3{
+                                        padding: 10px 0 0 0; 
+                                        font-size: 16px; 
+                                        color: #999;}
+                                    span{
+                                        font-size: 30px; 
+                                        font-weight: 600; 
+                                        color: #000;
+                                        img{
+                                            width: 35px;
+                                            margin: 0 7px 0 0;
+                                        }
+                                    }
+                                    p{
+                                        font-size: 14px; color: #ccc;
+                                    }
+                                }
+                            }
+                        }
+                        .right{
+                            width: 75%;
+                           > ul{
+                                display: flex;
+                                .slide{
+                                    width: 33.3333%;
+                                    .col-gal{
+                                        padding: 0 9px;
+                                        a{
+                                            display: block;
+                                            width: 100%;
+                                            //width auto => margin 0 9px 가능
+                                            .img-box{
+                                                width: 100%;
+                                                position: relative;
+                                                > img{
+                                                    width: 249px;
+                                                    height: 320px;
+                                                    z-index: 1;
+                                                    position: relative;
+                                                }
+                                                > span{
+                                                    position: absolute;
+                                                    right: 15px;
+                                                    bottom: 15px;
+                                                    z-index: 2;
+                                                    img{
+                                                        width: auto;
+                                                    }
+                                                }
+                                            }
+                                            .tex-box{
+                                                width: 100%;
+                                                ul{
+                                                width: 100%;
+                                                padding: 15px 0 0 0 ;
+                                                li{
+                                                    width: 100%;
+                                                    padding: 5px 0 ;
+                                                    &:first-child{
+                                                        font-size: 14px; 
+                                                        color: #999;
+                                                    }
+                                                    &:nth-child(3){
+                                                        font-size: 12px;
+                                                        color: #999;
+                                                    }
+                                                    strong,em{
+                                                        font-size: 16px; color: #333; font-weight: 600;
+                                                    }
+                                                    span{
+                                                        &.rate-price{
+                                                            color: #fa622f;
+                                                            font-size: 16px;
+                                                            font-weight: 800;
+                                                        }
+                                                        &.pan-price{
+                                                            font-size: 16px;
+                                                            color: #333;
+                                                            font-weight: 800;
+                                                        }
+                                                    }
+                                                    s{
+                                                        font-size: 14px;
+                                                        color: #b5b5b5;
+                                                    }
+                                                    &:last-child{
+                                                        padding: 2px 8px 4px 8px;
+                                                        width: 75.75px;
+                                                        height: 22px;
+                                                        color: #5f0080;
+                                                        font-size: 12px;
+                                                        font-weight: 500;
+                                                       
+                                                    }
+
+                                                }
+                                            }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

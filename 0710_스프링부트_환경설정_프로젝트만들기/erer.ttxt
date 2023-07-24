@@ -1,0 +1,34 @@
+login.mustache
+logout.mustache
+
+doc
+tab키 젠코딩(자동코딩)
+{{}}
+뷰 탬플릿
+
+
+맵핑 
+컨트롤러 (매서드(loginMethod(){})->맵핑("/login.do")->웹페이지를 띄운다.)
+ -> 자바
+
+맵핑이름 ("/login.do")
+리턴 login
+controller 패키지생성 => 메소드 생성!
+UserController
+
+@ 는 마지막에 ; 안써
+
+
+login.mustache
+인덱스 페이지
+링크 
+로그인 ("/login.do")/로그아웃("/logout.do")
+
+/////////뷰탬플릿////////////
+
+-컨트롤러
+1.logout.mustache
+2.리턴"logout";
+3.겟맵핑("/logout.do")
+4.모델 Model model.속성(Attribute) 추가 (add)
+  키와 (userName) 키값("이순신");

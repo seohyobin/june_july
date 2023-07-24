@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\풀스택서효빈\5월\0712_react_마켓컬리_게시판연결\bbs\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1662147667.index
+1963678187.index
+460446457.index
+4073931095.index
+3712960466.index

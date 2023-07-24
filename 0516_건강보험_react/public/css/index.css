@@ -1,0 +1,61 @@
+*{margin: 0; padding: 0; vertical-align: middle; box-sizing: border-box;}
+ul {list-style: none;}
+#wrap {width: 100%; background-color: #fff; position: relative;}
+#wrap::before {
+    content: "";
+    width: 170px;
+    height: 400px; 
+    background-image:url(../images/bg_layout_l.png); 
+    position: absolute; 
+    top: 0; 
+    left: 0;}
+    #wrap::after {
+        content: "";
+        width: 170px;
+        height: 400px; 
+        background-image:url(../images/bg_layout_r.png) ; 
+        position: absolute; 
+        top: 50px; 
+        right: 0;}
+
+#wrap .back .container{width: 100%; max-width: 900px; margin: 0 auto;  padding: 130px 0 0 0;}
+#wrap .back .container .title{width: 100%; }
+#wrap .back .container .title h2{font-size: 32px; font-weight: 700; padding-bottom:20px ;}
+#wrap .back .container .title p{font-size: 13px; color: #666;  padding: 10px 0 ;}
+#wrap .back .container .title .box{width: 100%; display: flex;}
+#wrap .back .container .title ul li{ position: relative; width: 33.34%; margin-bottom:40px ; height: 48px; background-color: #f6f6f6; border: 1px solid #a7acb4; font-size: 15px; text-align: center; justify-content: center; align-items: center;}
+#wrap .back .container .title ul li:nth-child(2){ background-color: #44465c; color: #fff;}
+#wrap .back .container .title ul  .before ::before{ 
+    width: 22px; 
+    height: 47px; 
+    content: ""; 
+    position: absolute; 
+    top: 0px; 
+    left: -2px; 
+    background: url(../images/arrow-progress-on-2.png) no-repeat; background-size: cover; }
+    #wrap .back .container .title ul  .after ::before{ 
+        width: 22px; 
+        height: 47px; 
+        content: ""; 
+        position: absolute; 
+        top: 0px; 
+        left: -2px; 
+        background: url(../images/after.png) no-repeat; 
+        }
+#wrap .back .container .title ul li span{justify-content: center; display: flex;}
+#wrap .back .container .title .border-box{padding: 25px 30px; height: 117px; border-bottom: 1px solid #e1e3e6; border-top: 1px solid #e1e3e6; border-left: 1px solid #e1e3e6; border-right: 1px solid #e1e3e6;} 
+#wrap .back .container .title .border-box p{font-size: 14px; color: #6c6d73; font-weight: 600;}
+#wrap .back .container .title .border-box p span{color: #ee0700; font-size: 15px;}
+#wrap .back .container .content{}
+#wrap .back .container .content hr{ margin:30px 0 ;}
+#wrap .back .container .content form{}
+#wrap .back .container .content form table{border-collapse: collapse ;}
+#wrap .back .container .content form table th{width: 180px; font-size: 15px; font-weight: 400; height: 67px;  border-bottom: 1px solid #e1e3e6; text-align: left;}
+#wrap .back .container .content form table th span{width: 100%;}
+#wrap .back .container .content form table th span img{width: auto; transform: translateY(-10px); }
+#wrap .back .container .content form table td{width: 750px; height: 67px; padding: 13px 16px; border-bottom: 1px solid #e1e3e6; }
+#wrap .back .container .content form table td input{width: 514.5px; height: 45px; padding: 0 15px 0 10px; background-color: #fff2f2; border-bottom: 1px solid #ffd7d2; border-top: 1px solid #ffd7d2; border-left: 1px solid #ffd7d2; border-right:1px solid #ffd7d2 ;}
+#wrap .back .container .content form table td select{padding: 0 10px 0 5px; width: 514.5px; height: 45px; background-color: #fff2f2; border-color:#ffd7d2 ;}
+#wrap .back .container .content form table td label{padding: 0 10px 0 0 ;}
+#wrap .back .container .content form table td label .radio{height: 20px; width: 20px;}
+#wrap .back .container .content form button{ display: inline-block; width: 200px; height: 45px; background-color: #ee0700; margin-top: 40px ; margin-left: 330px; border: 0; border-radius: 3px;  font-weight: 600; font-size: 15px; color: #fff;}

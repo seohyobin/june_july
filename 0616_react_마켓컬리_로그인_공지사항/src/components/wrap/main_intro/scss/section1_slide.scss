@@ -1,0 +1,61 @@
+.slide_container{
+    width: 100%;
+    position: relative;
+    .slide-view{
+        width:100%;
+        overflow: hidden;
+        position: relative; 
+        z-index: 1;
+        .slide-wrap{
+            width: 100% * 25;
+            display: flex;
+            margin:  0 0 0 -100%;
+            position: relative;
+            
+            // 아니면 transform -> translate X 로 이동!!
+            .slide{
+                width: 100%;
+                a{
+                    display: block;
+                    width: 100%;
+                    img{width: 100%;}
+                }
+            }
+        }
+    }
+    .left-arrow-btn {
+        display: block;
+        position: absolute;
+        top:45%;
+        left:15%;
+        z-index: 2;
+        transform: rotate(180deg);
+    }
+    .right-arrow-btn {
+        display: block;
+        position: absolute;
+        top:45%;
+        right:15%;
+        z-index: 2;
+    }
+    .page-count-box {
+        position: absolute;
+        z-index: 2;
+        bottom:60px;
+        left:50%;
+        margin: 0 0 0 370px;
+        background: rgba(0,0,0, 0.2);
+        padding: 5px 15px;
+        border-radius: 12px;
+        em {
+            font-size: 14px;
+            font-weight: 500;
+            color:#fff;
+        }
+        i { font-size: 14px;
+            font-weight: 500;
+            color:#fff;
+            margin: 0 5px;
+        }
+    }
+}

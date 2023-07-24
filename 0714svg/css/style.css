@@ -1,0 +1,41 @@
+@import url("../css/fonts.css");
+@import url("../css/reset.css");
+.svg-box {
+  padding: 200px 0 0 0;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.svg-box svg {
+  position: relative;
+  z-index: 2;
+}
+.svg-box svg .circle {
+  fill: none;
+  stroke: rgb(153, 187, 225);
+  stroke-width: 50px;
+  stroke-linecap: round;
+}
+@keyframes svgani {
+  from {
+    stroke-dashoffset: 1710;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.svg-box .number {
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(153, 187, 225);
+  font-size: 8vh;
+  font-weight: 600;
+}

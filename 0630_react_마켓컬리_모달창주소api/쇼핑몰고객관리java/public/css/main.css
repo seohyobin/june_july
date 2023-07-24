@@ -1,0 +1,94 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main .container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 100px 0 50px 0;
+}
+#wrap #main .container .title {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+#wrap #main .container .title h1 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 0 0 20px 0;
+}
+#wrap #main .container .title hr {
+  margin: 30px 0 0 0;
+}
+#wrap #main .container .content {
+  width: 100%;
+  text-align: center;
+}
+#wrap #main .container .content h3 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+#wrap #main .container .content h4 {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 600;
+  color: #5f0080;
+  padding: 30px 0;
+  border-bottom: 1px solid #5f0080;
+}
+#wrap #main .container .content ul {
+  padding: 20px 0 0 0;
+  width: 100%;
+}
+#wrap #main .container .content ul li {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+#wrap #main .container .content ul li a {
+  font-size: 16px;
+}
+#wrap #main .get-join-list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0 200px 0;
+}
+#wrap #main .get-join-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#wrap #main .get-join-list table caption {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 0 20px 0;
+  color: #8ab2cb;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#wrap #main .get-join-list table caption span {
+  font-size: 45px;
+  font-weight: 600;
+  color: #37a9ef;
+}
+#wrap #main .get-join-list table tr:nth-child(even) {
+  background-color: rgba(167, 220, 250, 0.5);
+}
+#wrap #main .get-join-list table tr th {
+  height: 60px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-weight: 600;
+}
+#wrap #main .get-join-list table tr td {
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 15px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}

@@ -1,0 +1,5 @@
+<%
+//1.Request : 리액트에서 AJAX REST API로 전송된 프로퍼티를 파라미터를 변수에 넣어서
+              자바 DTO에 userBean을 통해서 저장하고
+//2.Response: 다시 DTO 에서 getUser_id() 게터함수(getter함수) 로 입력데이터를 다시 리액트에세 응답하는 절차
+%>

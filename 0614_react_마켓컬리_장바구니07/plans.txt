@@ -1,0 +1,38 @@
+***마켓컬리 전체 페이지에서 사용할수있도록
+컨펌모달창을 모듈화 작업을한다.
+모듈화 작업이란 컨펌모달 jsx 태그 요소를 
+WrapComponent (최상위 컴포넌트) 에 자식 컴포넌트로 생성한다.
+
+그리고 메세지와 
+모달창 닫기 
+모달창 열기 등 이벤트를 다른 모든 컴포넌트에서 각기 구현하도록 컨트롤러와 탬플릿을 구현한다. 
+
+
+1.컴포넌트 만들기 
+ConfirmModal.jsx
+
+
+
+http://localhost:8080/JSP/0516마켓컬리_AJAX_DTO_DAO/쇼핑몰고객관리0516/kurly_user_signup_action.jsp
+
+setupProxys.js
+
+ //프록시주소는 1개만 지원 => 미들웨어(패키지) 설치
+
+   "proxy": {
+    "/jsp": {
+      "target": "http://localhost:8080"
+    },
+    "/php": {
+      "target": "http://localhost:8080"
+    },
+    "/asp": {
+      "target": "http://localhost:8080"
+    }
+  }
+}
+
+
+ npm i -g yarn 
+ yarn add http-proxy-middleware 
+ //http-proxy-middleware

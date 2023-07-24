@@ -1,0 +1,19 @@
+#section6 {
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+#section6 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#section6 .container .gap .content {
+  width: 100%;
+}
+#section6 .container .gap .content a {
+  width: 100%;
+  display: block;
+}
+#section6 .container .gap .content a img {
+  width: 100%;
+}

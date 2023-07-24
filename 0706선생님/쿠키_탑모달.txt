@@ -1,0 +1,20 @@
+쿠키 Cookie
+
+setCookie() 쿠키설정
+getCookie() 쿠키가져오기
+
+쿠키 요소
+
+웹문서.쿠키 = `키=키값; 패스=/; 만료일=날짜.국제표준시.toUTCString();`
+
+
+오늘 하루동안 열리지않음.  1일쿠키
+
+let toDay = new Date(); 2023-05-18 16:00:00
+todDay.setHoures(toDay.getHoures()+1); 2023-05-18 17:00:00  1시간
+todDay.setMinutes(toDay.getMinutes()+20); 2023-05-18 16:20:00  20분
+todDay.setDate(toDay.getDate()+1); 2023-05-19  일
+todDay.setMonth(toDay.getMonth()+1); 2023-06-18   월
+todDay.setFullYear(toDay.getFullYear()+1); 2024-05-18   년
+
+document.cookie =  `key=value;  path=/; expires=todDay.toUTCString();`;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/lib/jquery-2.2.4.min.js"></script>
+    <script src="./js/ajax_csv.js" defer></script>
+    <script src="./js/ajax_xml.js" defer></script>
+    <script src="./js/ajax_txt.js" defer></script>
+    <script src="./js/ajax_json.js" defer></script>
+
+</head>
+<body>
+    <nav>
+        <a href="#" class="cultural-assets-csv">동작구 문화재 현황(CSV)</a>
+        <i> | </i>
+        <a href="#" class="cultural-donor-xml">기증자 구슬영상(XML)</a>
+        <i> | </i>
+        <a href="#" class="trash-txt">동대문구 종량제 판매소(TXT)</a>
+        <i> | </i>
+        <a href="#" class="patient-json">기관별 환자(JSON)</a>
+    </nav>
+
+    <table>
+        <caption>서울특별시 동작구 문화재 현황(CSV)</caption>
+        <thead>
+            <tr>
+                <th>연번</th>
+                <th>종목</th>
+                <th>명칭</th>
+                <th>소재지(구)</th>
+                <th>지정일</th>
+                <th>소재지(상세)</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-cultural-assets-csv">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+
+    <table>
+        <caption>박물관 기증자 구슬영상 목록정보(XML)</caption>
+        <thead>
+            <tr>
+                <th>DONOR_NAME</th>
+                <th>TITLE</th>
+                <th>AGE_INFO</th>
+                <th>LINE_DESC</th>
+                <th>REGISTER_DATE</th>
+                <th>MODITY_DATE</th>
+                <th>MOVIE_CD</th>
+                <th>FILE_FMAT</th>
+                <th>FILE_SIZE_MB</th>
+                <th>KOGLCD</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-cultural-donor-xml">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+    
+    <table>
+        <caption>동대문구 종량제 판매소(TXT)</caption>
+        <thead>
+            <tr>
+                <th>연번</th>
+                <th>판매소명</th>
+                <th>주소</th>
+                <th>특수마대 판매여부</th>
+                <th>특수마대 용량</th>
+                <th>데이터기준일자</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-trash-txt">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+
+    <table>
+        <caption>기관별환자(JSON)</caption>
+        <thead>
+            <tr>
+                <th>기관코드</th>
+                <th>기관명</th>
+                <th>환자명</th>
+                <th>성별</th>
+                <th>나이</th>
+                <th>입원기간</th>
+                <th>기관위치</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-patient-json">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

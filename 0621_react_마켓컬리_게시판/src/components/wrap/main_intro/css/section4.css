@@ -1,0 +1,131 @@
+#section4 {
+  width: 100%;
+  padding: 40px 0;
+}
+#section4 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#section4 .container .gap {
+  width: 100%;
+}
+#section4 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#section4 .container .gap .content .left {
+  width: 25%;
+}
+#section4 .container .gap .content .left ul {
+  margin: 0 9px;
+}
+#section4 .container .gap .content .left ul li:nth-child(3) {
+  padding: 30px 0 50px 0;
+  display: flex;
+  align-items: center;
+}
+#section4 .container .gap .content .left ul li h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 500;
+}
+#section4 .container .gap .content .left ul li h3 {
+  padding: 10px 0 0 0;
+  font-size: 16px;
+  color: #999;
+}
+#section4 .container .gap .content .left ul li span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+#section4 .container .gap .content .left ul li span img {
+  width: 35px;
+  margin: 0 7px 0 0;
+}
+#section4 .container .gap .content .left ul li p {
+  font-size: 14px;
+  color: #ccc;
+}
+#section4 .container .gap .content .right {
+  width: 75%;
+}
+#section4 .container .gap .content .right > ul {
+  display: flex;
+}
+#section4 .container .gap .content .right > ul .slide {
+  width: 33.3333%;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal {
+  padding: 0 9px;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a {
+  display: block;
+  width: 100%;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .img-box {
+  width: 100%;
+  position: relative;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .img-box > img {
+  width: 249px;
+  height: 320px;
+  z-index: 1;
+  position: relative;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .img-box > span {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  z-index: 2;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .img-box > span img {
+  width: auto;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box {
+  width: 100%;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul {
+  width: 100%;
+  padding: 15px 0 0 0;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li {
+  width: 100%;
+  padding: 5px 0;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li:first-child {
+  font-size: 14px;
+  color: #999;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li:nth-child(3) {
+  font-size: 12px;
+  color: #999;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li strong, #section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li em {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li span.rate-price {
+  color: #fa622f;
+  font-size: 16px;
+  font-weight: 800;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li span.pan-price {
+  font-size: 16px;
+  color: #333;
+  font-weight: 800;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li s {
+  font-size: 14px;
+  color: #b5b5b5;
+}
+#section4 .container .gap .content .right > ul .slide .col-gal a .tex-box ul li:last-child {
+  padding: 2px 8px 4px 8px;
+  width: 75.75px;
+  height: 22px;
+  color: #5f0080;
+  font-size: 12px;
+  font-weight: 500;
+}

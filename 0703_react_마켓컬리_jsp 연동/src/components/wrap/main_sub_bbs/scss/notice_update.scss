@@ -1,0 +1,129 @@
+#noticeUpdate{
+    width: 100%;
+    padding: 70px 0 100px 0;
+     > .container{
+        width: 100%;
+        max-width: 1050px;
+        margin: 0 auto;
+        display: flex;
+        .left{
+            width: 200px;
+        }
+        .right{
+            width: 850px;
+            padding: 0 0 0 40px;
+            .title{
+                width: 100%;
+                text-align: left;
+                padding:  0 0 40px 0;
+                h2{
+                    font-size: 24px;
+                    color: #333;
+                    font-weight: 500;
+                    height: 28px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .content{
+                width: 100%;
+                border-top:2px solid #333  ;
+                form{
+                    width: 100%;
+                    padding:  20px 0 0 0;
+                    ul{
+                        width: 100%;
+                        > li{
+                            width: 100%;
+                            padding:  0 0 0 80px;
+                            position: relative;
+                            &:first-child{
+                                padding-bottom:20px;
+                            }
+                            label{
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                font-size: 15px;
+                                font-weight: 500;
+                                height: 50px;
+                                display: inline-flex;
+                                align-items: center;
+                                i{
+                                    color: red;
+                                    font-size: 12px;
+                                    margin: 0 0 0 2px;
+                                    transform: translateY(-2px);
+                                }
+                            }
+               
+                            > input{
+                                width: 100%;
+                                height: 50px;
+                                border: 1px solid #ccc;
+                                background-color: #fff;
+                                border-radius: 3px;
+                                outline-offset: -1px;
+                                outline:1px solid transparent;
+                                transition: all 0.3s;
+                                padding: 0 0 0 20px;
+                                margin-bottom: 20px;
+    
+                                &:focus{
+                                    outline: 1px solid #888;
+                                }
+                            }
+    
+                            > textarea{
+                                width: 100%;
+                                height: 300px;
+                                border: 1px solid #ccc;
+                                background-color: #fff;
+                                border-radius: 3px;
+                                resize: none;
+                                outline-offset: -1px;
+                                outline:1px solid transparent;
+                                transition: all 0.3s;
+                                padding: 15px;
+                                margin-bottom: 20px;
+        
+                            }
+                        }
+                      
+                    }
+                    .button-box{
+                        display: flex;
+                        align-items: center;
+                        padding: 20px 0 0 0;
+                        .left{  
+                            width: 100%;
+                            text-align:right ;
+                            
+                            button{
+                                margin: 0 5px;
+                                height: 40px;
+                                width: 150px;
+                                padding: 0 10px;
+                                background-color: #5f0080;
+                                color: #fff;
+                                border: 0;
+                                border-radius: 3px ;
+                                font-weight: 600;
+                                &:hover{
+                                   background-color: #fff;
+                                   color: #5f0080;
+                                   border:1px solid #5f0080 ;
+                                }
+            
+                            }
+                        }   
+                       
+                    }
+                 
+                }
+            } 
+        }
+
+
+    }
+}

@@ -1,0 +1,35 @@
+리액트 다음 포스트모달 npm i
+
+post모달 컴포넌트 만들기  
+
+다운받은 패키지 임포트
+
+랩퍼에 post모달 컴포넌트 등록 
+상태변수 만들어서 false 안뜨게 만들어줘	
+
+
+1.package 설치
+
+npm i react-daum-postcode
+
+2.최상위 컴포넌트 아래 자식컴포넌트로 생성
+	
+3.컴포넌트 상단에서 import 이름 알아서 정해!!
+	      <Postcode 
+                        autoClose
+                        onComplete={onCompletePost}
+                        style={post} 스타일안먹으면 여기다가 해줭
+                    />
+
+4.주소검색 입력폼 만들고 
+	z-index 1 
+	position relative
+
+5.주소검색 폼 위에 postcode 보이게한다.
+	z-index 2
+	position absolute
+
+6.검색이 완료되면 자동으로 닫힌다.
+
+7.검색된 주소를 폼에 바인딩한다.      https://postcode.map.daum.net/guide#sample 여기 참조향
+

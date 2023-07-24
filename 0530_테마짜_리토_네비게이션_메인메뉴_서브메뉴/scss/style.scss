@@ -1,0 +1,270 @@
+@import url('../css/fonts.css');
+@import url('../css/reset.css');
+@import url('../css/header.css');
+
+
+#wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    #header{
+        z-index: 3;
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        padding: 0 35px;
+        height: 80px;
+        background-color: #232323;
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            .left{
+                width: 111px;
+                height: 100%;
+
+                h1{
+                    width: 100%;
+                    a{
+                        width: 100%;
+                        display: block;
+                        img{
+                            width: 111px;
+                            height: 36px;
+                        }
+                    }
+                }
+            }
+            .center{
+                width: 1200px;
+                height: 100%;
+                padding: 0 15px;
+                nav{
+                    width: 100%;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    ul{
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+
+                        li{
+                            height: 100%;
+                            padding: 0 22px;
+                            display: flex;
+                            align-items: center;
+                            position: relative;
+                            > a{
+                                font-size: 14px;
+                                font-weight: 600;
+                                color: rgba(255,255,255,1);
+                                text-transform: uppercase;
+                                transition: all 0.3s;
+                                &:hover{
+                                    color: rgba(255,255,255,0.7);
+
+                                }
+                            }
+                            //////////서브
+                            .sub{
+                                position: absolute;
+                                display: none;
+                                left: 50%;
+                                top: 80px;
+                                width: 901.625px;
+                                margin:  0 0 0 calc(-901.625px /2);
+                                background-color: #fff;
+                                border-radius: 5px;
+                                .container{
+                                    padding: 50px 65px; 
+                                    width: 100%;
+                                    ul{
+                                        display: flex;
+                                        width: 100%;
+                                        li{
+                                            width: 25%;
+                                            dl{
+                                                dt{
+                                                    
+                                                }
+                                                dt a{
+                                                    text-align: left;
+                                                    display: block;
+                                                    line-height: 250%;
+                                                    font-size: 13px;
+                                                    font-weight: 600;
+                                                    color: #828282;
+                                                }
+                                                dd{
+                                                   
+                                                }
+                                                dd a{
+                                                    display: block;
+                                                    line-height: 280%;
+                                                    font-size: 13px;
+                                                    font-weight: 500;
+                                                    color: #828282;
+                                                    &:hover{
+                                                        color: #000;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.sub1{
+                                    display: none;
+                                }
+                                &.sub2{
+                                    display: block;
+                                    width: 240px;
+                                    .container{
+                                        padding: 50px 65px; 
+                                        width: 100%;
+                                        ul{
+                                            display: block;
+                                            width: 100%;
+                                            li{
+                                                width: 100%;
+                                                line-height: 100%;
+                                                padding: 5px 0 ;
+                                                a{
+                                                    position: relative;
+                                                    display: block;
+                                                    color: #000;
+                                                    padding: 8px 0;
+                                                    align-items: center;
+                                                    justify-content: space-between;
+                                                     color: #828282;
+                                                     transition: all 0.3s;
+                                                 
+                                                }
+                                                .container{
+                                                    ul{
+                                                        li{
+                                                            .sub-sub{
+                                                                position: absolute;
+                                                                top: 0;
+                                                                left: 0;
+                                                                width: 240px;
+                                                                background-color: #fff;
+                                                                border-radius: 5px;
+                                                                margin: 0 0 0 1px;
+                                                                display: none;
+                      
+                                                                &.sub3-1{
+                                                                    display: block;
+                                                                    top: 41px*0;
+                                                                }
+                                                                &.sub2-2{
+                                                                    display: none;
+                                                                    top: 41px*1;
+                                                                    
+            
+                                                                }
+                                                                &.sub2-3{
+                                                                    display: none;
+                                                                    top: 41px*2; 
+                                                                    padding: 0 0 0 15px;   
+            
+                                                                }
+                                                                &.sub2-4{
+                                                                    display: none;
+                                                                    top: 41px*3;
+                                                                    display: block;
+            
+                                                                }
+                                                                
+                                                                &.sub3-1{
+            
+                                                                }
+                                                                &.sub3-2{
+            
+                                                                }
+                                                                &.sub3-3{
+            
+                                                                }
+                                                                &.sub3-4{
+            
+                                                                }
+                                                                &.sub3-5{
+            
+                                                                }
+                                                                &.sub3-6{
+                                                                    display: block;
+                                                                }
+            
+            
+                                                                &.sub5-1{
+            
+                                                                }
+                                                                &.sub5-2{
+            
+                                                                }
+                                                                &.sub5-3{
+            
+                                                                }
+                                                                &.sub5-4{
+            
+                                                                }
+                                                                &.sub5-5{
+            
+                                                                }
+                                                                &.sub5-6{
+                                                                    display: block;
+                                                                }
+                                                                
+              
+                                                            
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                              
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                width: auto;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                a{
+                    margin: 0 0 0 15px;
+                    color: #fff;
+                    i{
+                        opacity: 0;
+                    }
+                }
+               
+            }
+        }
+    }
+    #main{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        #section1{
+            width: 100%;
+            height: 100%;
+            background: url(../img/home-interior-design-slider-img01.jpg) no-repeat 50% 50%;
+            background-size: cover;
+        }
+    }
+    #footer{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+}

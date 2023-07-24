@@ -1,0 +1,77 @@
+#noticeLeft{
+    width: 200px;
+     > .container{
+        width: 100%;
+        .title{
+            width: 100%;
+            padding: 0 0 40px 0;
+            h2{
+                font-size: 28px;
+                font-weight: 600;   
+                color: #333;
+            }
+
+        }
+        .nav{
+            width: 100%;
+
+            ul{
+                width: 100%;
+                border: 1px solid rgb(242, 242, 242);
+                li{
+                    width: 100%;
+                    border-top:1px solid rgb(242, 242, 242) ;
+                    &:first-child{
+                        border: top 0; ;
+                    }
+                    > a{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 50px;
+                        color: #333;
+                        font-weight: 600;
+                        text-indent: 20px;
+                        transition: all 0.3s;
+                        background: #fff url(../../../../../public/images/intro/icon_arr_grey.svg) no-repeat 95% 50% ;
+                        background-size: 19px 19px;
+                        &.on{
+                            color: #5f0080;
+                            background-color: rgb(250, 250, 250);
+                            background-image: url(../../../../../public/images/intro/icon_arr_purple.svg) ;
+                        }
+                        &:hover{
+                            color: #5f0080;
+                            background-color: rgb(250, 250, 250);
+                            background-image: url(../../../../../public/images/intro/icon_arr_purple.svg) ;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            margin: 36px 0 0 0;
+            height: 60px;
+            width: 200px;
+            > a{
+                line-height: 160%;
+                display: block;
+                background: #fafafa;                        
+                color: #666;
+                padding: 15px 0;
+                background: #fff url(../../../../../public/images/intro/icon_arr_black.svg) no-repeat 95% 50% ;
+                background-size: 19px 19px;
+                span{
+                    font-size: 13px;
+                    letter-spacing: -2px;
+                    color: #333;
+                    font-weight: 600;
+                    display: block;
+                }
+                em{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

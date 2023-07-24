@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding = 'utf-8' standalone='yes'?>
+<database>
+    <record>
+        <field1>20230001</field1>
+        <field2>서효빈</field2>
+        <field3>전자공학과</field3>
+        <field4>서울</field4>
+        <field5>010-0333-3333</field5>
+    </record>
+    <record>
+        <field1>20230002</field1>
+        <field2>서서서</field2>
+        <field3>컴퓨터공학</field3>
+        <field4>광주</field4>
+        <field5>010-0333-8888</field5>
+    </record>
+    <record>
+        <field1>20230003</field1>
+        <field2>효효효</field2>
+        <field3>경영학과</field3>
+        <field4>제주도</field4>
+        <field5>010-6666-3333</field5>
+    </record>
+    <record>
+        <field1>20230004</field1>
+        <field2>빈빈빈</field2>
+        <field3>영문과</field3>
+        <field4>경주</field4>
+        <field5>010-9999-3333</field5>
+    </record>
+    <record>
+        <field1>20230005</field1>
+        <field2>서제인</field2>
+        <field3>호텔경영</field3>
+        <field4>봉화</field4>
+        <field5>010-1111-7777</field5>
+    </record>
+</database>

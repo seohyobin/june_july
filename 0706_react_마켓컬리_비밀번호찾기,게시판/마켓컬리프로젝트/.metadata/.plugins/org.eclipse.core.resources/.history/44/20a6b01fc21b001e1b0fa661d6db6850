@@ -1,0 +1,415 @@
+package kurly;
+import java.sql.*;
+import kurly.UserDTO;
+import java.util.*; // list , Arraylist
+
+
+/**
+ * KurlyDAO
+ */
+public class UserDAO {
+    private Connection conn;
+    private PreparedStatement ps;
+    private ResultSet rs;
+    
+    public UserDAO(){
+        //1.데이터 베이스 드라이버 (JDBC)
+        //2.데이터 베이스 인증 & 인가 (URL ID PW)
+
+
+
+            try{
+                String dbURL = "jdbc:mysql://localhost:3306/user";
+                String dbID = "root";
+                String dbPW = "1234";
+                Class.forName("com.mysql.jdbc.Driver");
+                System.out.println("JDBC드라이버 로드 성공!!!");;
+                conn = DriverManager.getConnection(dbURL, dbID, dbPW);
+                System.out.println("데이터베이스 Connection 성공!!!");
+
+             
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
+    }
+
+    public int signup(UserDTO userDTO){
+        String SQL = "INSERT INTO signup_table( user_id, user_pw, user_name, user_email, user_hp, user_address, user_gender, user_birth, user_chooga, user_service) VALUES(?,?,?,?,?,?,?,?,?,?)";
+        
+        try{
+            ps=conn.prepareStatement(SQL);
+            ps.setString(1, userDTO.getUser_id());
+            ps.setString(2, userDTO.getUser_pw());
+            ps.setString(3, userDTO.getUser_name());
+            ps.setString(4, userDTO.getUser_email());
+            ps.setString(5, userDTO.getUser_hp());
+            ps.setString(6, userDTO.getUser_address());
+            ps.setString(7, userDTO.getUser_gender());
+            ps.setString(8, userDTO.getUser_birth());
+            ps.setString(9, userDTO.getUser_chooga());
+            ps.setString(10, userDTO.getUser_service());
+
+            return ps.executeUpdate();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+        try{
+            if(rs != null){rs.close();}
+            if(ps != null){ps.close();}
+            if(conn != null){conn.close();}
+        }
+        catch(Exception e){
+            
+        }
+    }
+        return -1;
+    }
+
+
+    public int signin (UserDTO userDTO){
+        String SQL = "SELECT user_pw FROM signup_table WHERE user_id =? ";  //user_pw 라서 => getString(1)  //* 로하면 ㅎㄷ     //user_pw   rs.getString(3)
+        try{
+            ps=conn.prepareStatement(SQL);
+            ps.setString(1, userDTO.getUser_id());
+            rs= ps.executeQuery();
+
+            if(rs.next()){
+                if(rs.getString(1).equals(userDTO.getUser_pw())){
+                    return 1; //로그인성공
+                    //idx
+                    //rs.getInt(1)
+
+                    //user_id
+                    //rs.getString(2)
+
+                    //user_pw
+                    //rs.getString(3)
+
+                }
+                else{
+                    return 0;//비밀번호 실패
+                }
+            }
+            else{
+                return -1; //아이디실패
+            }
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+            try{
+                if(rs != null){rs.close();}
+                if(ps != null){ps.close();}
+                if(conn != null){conn.close();}
+            }
+            catch(Exception e){
+                
+            }
+        }
+        return -2;//데이터베이스 오류
+    }
+
+
+
+    public int update (UserDTO userDTO){
+        String SQL = "UPDATE signup_table SET user_pw=? ,user_name=? ,user_email =?,user_hp =?,user_address =?,user_gender =?,user_birth =?, user_chooga=?, user_service=? WHERE user_id =? ";
+        try{
+            ps=conn.prepareStatement(SQL);
+            ps.setString(1, userDTO.getUser_pw());
+            ps.setString(2, userDTO.getUser_name());
+            ps.setString(3, userDTO.getUser_email());
+            ps.setString(4, userDTO.getUser_hp());
+            ps.setString(5, userDTO.getUser_address());
+            ps.setString(6, userDTO.getUser_gender());
+            ps.setString(7, userDTO.getUser_birth());
+            ps.setString(8, userDTO.getUser_chooga());
+            ps.setString(9, userDTO.getUser_service());
+            ps.setString(10, userDTO.getUser_id());
+            return ps.executeUpdate();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+            try{
+                if(rs != null){rs.close();}
+                if(ps != null){ps.close();}
+                if(conn != null){conn.close();}
+            }
+            catch(Exception e){
+                
+            }
+        }
+        return -1;
+    }
+
+
+
+    public int delete (UserDTO userDTO){
+        String SQL = "DELETE FROM signup_table WHERE user_id=? AND user_pw=?  ";
+        try{
+            ps=conn.prepareStatement(SQL);
+            ps.setString(1, userDTO.getUser_id());
+            ps.setString(2, userDTO.getUser_pw());
+            return ps.executeUpdate();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+            try{
+                if(rs != null){rs.close();}
+                if(ps != null){ps.close();}
+                if(conn != null){conn.close();}
+            }
+            catch(Exception e){
+                
+            }
+        }
+        return -1;
+    }
+    
+    //개인정보 수정하기 위해서 업데이트 폼에 데이터 내보내기 =>가입한 회원정보 가져온다.
+    public UserDTO getJoin (String user_id){
+        UserDTO userDTO = new UserDTO();
+        
+        String SQL = "SELECT * FROM signup_table WHERE user_id =? ";  //user_pw 라서 => getString(1)  //  * 로하면     //user_pw   rs.getString(3)
+        try{
+            ps=conn.prepareStatement(SQL);
+            ps.setString(1, user_id);
+            rs= ps.executeQuery();
+
+            if(rs.next()){ //데이터 베이스 자료를 가져와서 DTO setter에 저장 => 위에 DTO import 시켜!!!
+                userDTO.setUser_id(user_id);
+                userDTO.setUser_pw(rs.getString("user_pw"));
+                userDTO.setUser_name(rs.getString("user_name"));
+                userDTO.setUser_email(rs.getString("user_email"));
+                userDTO.setUser_hp(rs.getString("user_hp"));
+                userDTO.setUser_address(rs.getString("user_address"));
+                userDTO.setUser_gender(rs.getString("user_gender"));
+                userDTO.setUser_birth(rs.getString("user_birth"));
+                userDTO.setUser_chooga(rs.getString("user_chooga"));
+                userDTO.setUser_service(rs.getString("user_service"));
+            }
+
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+            try{
+                if(rs != null){rs.close();}
+                if(ps != null){ps.close();}
+                if(conn != null){conn.close();}
+            }
+            catch(Exception e){
+                
+            }
+        }
+        return userDTO;
+      
+        
+    }
+
+
+    //가입회원 전체 목록 리스트 가져오기
+    public List<UserDTO> getJoinList(){
+        UserDTO userDTO =null;
+        List<UserDTO> list = new ArrayList<>(); //배열 -> 데이터 넣어
+        //모든 전체 리스트 목록을 가져오는 SQL 작성
+        
+        String SQL = "SELECT * FROM signup_table";
+
+        try{
+            ps=conn.prepareStatement(SQL);
+            rs=ps.executeQuery();
+            
+            while(rs.next()){
+                //현재 레코드에 모든 컬럼(필드) 데이터 가져오기 !! 
+                userDTO =new UserDTO();
+                userDTO.setUser_id(rs.getString("user_id"));
+                userDTO.setUser_pw(rs.getString("user_pw"));
+                userDTO.setUser_name(rs.getString("user_name"));
+                userDTO.setUser_email(rs.getString("user_email"));
+                userDTO.setUser_hp(rs.getString("user_hp"));
+                userDTO.setUser_address(rs.getString("user_address"));
+                userDTO.setUser_gender(rs.getString("user_gender"));
+                userDTO.setUser_birth(rs.getString("user_birth"));
+                userDTO.setUser_chooga(rs.getString("user_chooga"));
+                userDTO.setUser_service(rs.getString("user_service"));
+                userDTO.setUser_sign_up_date(rs.getString("user_sign_up_date"));
+                //리스트에 저장 추가(ADD)하기!!
+                //줄(행)단위(한사람) 레코드단위로 리스트(Arraylist)에 저장 추가한다. 
+                list.add(userDTO);
+            }
+
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+            try{
+                if(rs != null){rs.close();}
+                if(ps != null){ps.close();}
+                if(conn != null){conn.close();}
+            }
+            catch(Exception e){
+                
+            }
+        }
+        return list;
+    }
+
+
+
+        public UserDTO idSearch(String user_name, String user_hp){
+            String SQL = "SELECT user_hp, user_id  FROM signup_table WHERE user_name = ?";
+            try {
+                PreparedStatement ps = conn.prepareStatement(SQL);	
+                ps.setString(1, user_name);
+                rs = ps.executeQuery();
+                while(rs.next()) {
+                    // user_hp 비교
+                    if(rs.getString(1).equals(user_hp)) {
+                        UserDTO userDTO = new UserDTO();
+                        // 이메일이 일하면 검색 정보 아이디를 반환한다.
+                        userDTO.setUser_id(rs.getString(2)); //SQL 조회딘 아이디를 반환
+                        return userDTO;
+                    }
+                    //return 이메일일 틀린것
+                }
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+            return null;
+        }
+        
+        
+    	public UserDTO pwSearch(String user_id, String user_hp, String user_sign_up_date){
+    		String SQL = "SELECT user_hp, user_pw, user_sign_up_date  FROM signup_table WHERE user_id = ?";
+    		try {
+    			PreparedStatement ps = conn.prepareStatement(SQL);	
+    			ps.setString(1, user_id);
+    			rs = ps.executeQuery();
+    			while(rs.next()) {
+    				// user_hp 비교
+    				if(rs.getString(1).equals(user_hp)) {
+    					UserDTO userDTO = new UserDTO();
+    					// 이메일이 일하면 검색 정보 비밀번호를 반환한다.
+    					userDTO.setUser_pw(rs.getString(2)); //SQL 조회딘 비밀번호를 반환
+    					userDTO.setUser_sign_up_date(rs.getString(3)); //SQL 조회딘 비밀번호를 반환
+    					return userDTO;
+    				}
+    			}
+    		} catch (Exception e) {
+    			// TODO: handle exception
+    		}
+    		return null;
+    	}
+    	
+        public boolean idCheckMethod(String user_id){
+	    	boolean result = false; //초기값 중복안된상태
+	    	
+            String SQL = "SELECT user_id  FROM signup_table WHERE user_id = ?";
+
+            try{
+               PreparedStatement ps = conn.prepareStatement(SQL);	
+               ps.setString(1, user_id);
+               rs = ps.executeQuery();
+               if(rs.next()){
+                   result=true;  // 중복된 아이디
+               }
+               else{
+            	   result=false; // 사용가능한 아이디
+               }
+            }
+            catch( Exception e ){
+                e.printStackTrace();
+            }
+            finally {
+                try{
+                     if(rs !=null ){rs.close();}
+                     if(ps !=null ){ps.close();}
+                     if(conn !=null ){conn.close();}
+                }
+                catch(Exception e){                    
+                } 
+            }
+            return result;  // 아이디 중복여부 결과 리턴 boolean 
+        }
+    	 
+        public boolean emailCheckMethod(String user_email){
+	    	boolean result = false; //초기값 중복안된상태
+	    	
+	    	String SQL = "SELECT user_email  FROM signup_table WHERE user_email = ?";
+	    	
+	    	try{
+	    		PreparedStatement ps = conn.prepareStatement(SQL);	
+	    		ps.setString(1, user_email);
+	    		rs = ps.executeQuery();
+	    		if(rs.next()){
+	    			result=true;  // 중복된 이메일
+	    		}
+	    		else{
+	    			result=false; // 사용가능한 이메일
+	    		}
+	    	}
+	    	catch( Exception e ){
+	    		e.printStackTrace();
+	    	}
+	    	finally {
+	    		try{
+	    			if(rs !=null ){rs.close();}
+	    			if(ps !=null ){ps.close();}
+	    			if(conn !=null ){conn.close();}
+	    		}
+	    		catch(Exception e){                    
+	    		} 
+	    	}
+	    	return result;  // 이메일 중복여부 결과 리턴 boolean 
+	    }
+        
+        
+        //비밀번호 재설정 reset
+        
+
+        public int pwReset (String user_id, String user_pw ){
+            String SQL = "UPDATE signup_table SET user_pw=? ,user_name=? ,user_email =?,user_hp =?,user_address =?,user_gender =?,user_birth =?, user_chooga=?, user_service=? WHERE user_id =? ";
+            try{
+                ps=conn.prepareStatement(SQL);
+                ps.setString(1, userDTO.getUser_pw());
+                ps.setString(2, userDTO.getUser_name());
+                ps.setString(3, userDTO.getUser_email());
+                ps.setString(4, userDTO.getUser_hp());
+                ps.setString(5, userDTO.getUser_address());
+                ps.setString(6, userDTO.getUser_gender());
+                ps.setString(7, userDTO.getUser_birth());
+                ps.setString(8, userDTO.getUser_chooga());
+                ps.setString(9, userDTO.getUser_service());
+                ps.setString(10, userDTO.getUser_id());
+                return ps.executeUpdate();
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
+            finally{  //무조건 실행하는 키워드 finally{} -> catch문 바로 밑!!!
+                try{
+                    if(rs != null){rs.close();}
+                    if(ps != null){ps.close();}
+                    if(conn != null){conn.close();}
+                }
+                catch(Exception e){
+                    
+                }
+            }
+            return -1;
+        }
+	    
+    	
+	
+    
+}

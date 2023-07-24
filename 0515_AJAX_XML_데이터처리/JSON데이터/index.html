@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/lib/jquery-2.2.4.min.js"></script>
+    <script src="./js/ajax_json.js" defer></script>
+    <script src="./js/ajax_txt.js" defer></script>
+    <script src="./js/ajax_csv.js" defer></script>
+    <script src="./js/ajax_xml.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="#" class="member-hp-btn-json">회원연락처(JSON)</a>
+        <i> | </i>
+        <a href="#" class="member-grade-btn-json">성적표(JSON)</a>
+        <i> | </i>
+        <a href="#" class="member-grade-btn-txt">성적표(TXT)</a>
+        <i> | </i>
+        <a href="#" class="member-grade-btn-csv">성적표(CSV)</a>
+        <i> | </i>
+        <a href="#" class="member-student-btn-xml">학생정보(XML)</a>
+    </nav>
+    <table>
+        <caption>회원관리정보(JSON)</caption>
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>이름</th>
+                <th>연락처</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-hp-json">
+            <!-- 회원정보 바인딩 -->
+
+        </tbody>
+    </table>
+
+    <table>
+        <caption>성적표 정보(JSON)</caption>
+        <thead>
+            <tr>
+                <th>학번</th>
+                <th>이름</th>
+                <th>국어</th>
+                <th>영어</th>
+                <th>수학</th>
+                <th>총점</th>
+                <th>평균</th>
+                <th>학점</th>
+                <th>석차</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-grade-json">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+
+    <table>
+        <caption>성적표 정보(TXT)</caption>
+        <thead>
+            <tr>
+                <th>학번</th>
+                <th>이름</th>
+                <th>국어</th>
+                <th>영어</th>
+                <th>수학</th>
+                <th>총점</th>
+                <th>평균</th>
+                <th>석차</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-grade-txt">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+
+    
+    <table>
+        <caption>성적표 정보(CSV)</caption>
+        <thead>
+            <tr>
+                <th>학번</th>
+                <th>이름</th>
+                <th>국어</th>
+                <th>영어</th>
+                <th>수학</th>
+                <th>총점</th>
+                <th>평균</th>
+                <th>석차</th>
+            </tr>
+        </thead>
+        <tbody class="tbody-grade-csv">
+            <!-- 성적표 바인딩 -->
+        </tbody>
+    </table>
+
+    <table>
+        <caption>학생 정보(XML)</caption>
+        <thead>
+            <tr>
+                <th>학번</th>
+                <th>이름</th>
+                <th>학과</th>
+                <th>거주지역</th>
+                <th>전화번호</th>
+            </tr>  
+        </thead>
+        <tbody class="tbody-student-xml">
+            <!-- 학생정보 바인딩 -->
+        </tbody>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

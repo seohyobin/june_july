@@ -1,0 +1,13 @@
+127.0.0.1 - - [10/Jul/2023:17:03:46 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:03:48 +0900] "GET /kurly/idSearchForm.jsp HTTP/1.1" 200 3408
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:03:48 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:04:07 +0900] "POST /kurly/idSearchAction.jsp HTTP/1.1" 200 54
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:48:56 +0900] "POST /kurly/user_signin_action.jsp?user_id=123456789ee&user_pw=789456123789 HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:49:45 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaa HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:50:12 +0900] "POST /kurly/user_signin_action.jsp?user_id=qqqqqqqqqqqqqqqq&user_pw=1111111 HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:54:00 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaa HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:57:11 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaa HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:17:57:23 +0900] "POST /kurly/user_signin_action.jsp?user_id=123456789ee&user_pw=789456123789 HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:18:01:38 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaa HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:18:02:35 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaa%E3%84%B4%E3%84%B4%E3%84%B4%E3%84%B4 HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [10/Jul/2023:18:03:28 +0900] "POST /kurly/user_signin_action.jsp?user_id=luck1409&user_pw=aaaaaaaaaaaa HTTP/1.1" 200 69

@@ -1,0 +1,19 @@
+
+setupPoxys.js
+
+http-proxy-middleware
+
+
+  //  npm i -g yarn  얀설치
+  "proxy":{  // 프록시 서버 주소가 1개만 지원  미들웨어(패키지) 설치
+      "/jsp":{ // npm i http-proxy-middleware  
+      "/jsp":{ // npm i -g yarn yarn add   
+        "target":"http://moonjong.co.kr"
+      },      
+      "/php":{
+        "target":"http://moonjong.com"
+      },
+      "/asp":{
+        "target":"http://localhost:8080"
+      }
+  }

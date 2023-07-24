@@ -1,0 +1,15 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+#header{}
+#header{}
+#view {width:100%; background:#fff; padding:100px;}
+#view .container {width:100%; max-width:900px; margin: 0 auto; }
+#view .container .title{font-weight:600; font-size:44px; text-align:center; padding: 50px 0 50px 0; }
+#view .container .title h1 {font-weight:600; font-size:32px; }
+#view .container form {width:100%;}
+#view .container form ul {width:100%;}
+#view .container form ul li {width:100%; margin:15px 0; font-size:20px;}
+#view .container form ul li input{ width:100%; height:45px; border:1px solid #ddd; font-size:16px; color:#333; padding:0 15px;}
+#view .container form ul li textarea{width: 100%; height:200px; resize:none; font-size:16px;}
+
+

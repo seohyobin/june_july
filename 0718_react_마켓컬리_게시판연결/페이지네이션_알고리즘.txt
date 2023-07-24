@@ -1,0 +1,172 @@
+1. 
+list = 5 10 15 20 50 100 ... 지정
+
+list = 5
+1페이지 => 보여줄 줄수 지정 5행(1페이지)
+1페이지 => 0 1 2 3 4(1 2 3 4 5)
+Math.ceil((idx+1)/list)
+
+0  ......
+1  ......
+2  ......
+3  ......
+4  ......
+:
+:
+99 ......
+
+
+1페이지( 시작행번호0 ~ 끝행4 )
+btnNum=1;
+
+startNum = ((cnt-1)*5);
+endtNum = startNum + 5;
+0 ~ 5
+for(let i=startNum; i<endtNum; i++){
+
+}
+0  ......
+1  ......
+2  ......
+3  ......
+4  ......
+
+Math.ceil((idx+1)/list) === pageNumber
+
+2페이지( 시작행번호0 ~ 끝행4 )
+btnNum=2
+startNum = ((2-1)*5);
+endtNum = 5 + 5;
+5 ~ 10
+for(let i=startNum; i<endtNum; i++){
+
+}
+5  ......
+6  ......
+7  ......
+8  ......
+9  ......
+
+3페이지( 시작행번호0 ~ 끝행4 )
+btnNum=3
+startNum = ((3-1)*5);
+endtNum = 10 + 5;
+10 ~ 15
+for(let i=startNum; i<endtNum; i++){
+
+}
+10  ......
+11  ......
+12  ......
+13  ......
+14  ......
+notice.map((item, idx)=>{ //
+ if(Math.ceil((idx+1)/list) === pageNumber){ // 6/5 = Math.ceil(1.8) ==> 2
+    return(
+        .........        
+    )
+ }
+ }
+
+ 1페이지
+ 0
+ 1
+ 2
+ 3
+ 4
+
+ 2페이지
+ 5
+ 6
+ 7
+ 8
+ 9
+
+
+/////////////////////////////////
+그룹페이지 : 100개의 줄수가 있다 이걸 한페지에 5개씩 보여주는 페이지네이션을 구했다
+            그러면 페이지번호 20개가 있다 (100/5= 20 개 번호 버튼을 생성)
+            그래서 페이지번호도 한화면에 5개씩 묶어서 보이고 싶다.
+
+
+
+그룹단위 1페이지 카운트 cnt = 1;    1  2  3  4  5 > 
+그룹단위 2페이지 카운트 cnt = 2; <  6  7  8  9 10 >
+그룹단위 3페이지 카운트 cnt = 3; < 11 12 13 14 15 >
+그룹단위 4페이지 카운트 cnt = 4; < 16 17 18 19 20 
+
+ 1 2 3 4 5 >
+ 
+1 2 3 4 5 6 7 8  9 10  11 12 13 14 15 16 17 
+
+Math.ceil(notice.length/list/groupPage)
+Math.ceil(100/5/5) => 4
+
+그룹1    1  2  3  4  5 >   페이지그룹의 1페이지의 페이지번호 묶음 > 1 
+ 그룹1 에서는 cnt 사용 버튼 안보임
+ { cnt > 1 && <a className="prev-btn" onClick={onClickPrevGroup}>&lt;</a> }
+
+그룹2 <  6  7  8  9 10 >
+그룹3 < 11 12 13 14 15 >
+
+그룹4 < 16 17 18 19 20 
+그룹4 에서는 cnt 사용 버튼 안보임
+{cnt < Math.ceil(notice.length/list/groupPage) && <a className="next-btn"  onClick={onClickNextGroup}>&gt;</a>}
+
+
+페이지그룹 알고리즘
+시작번호0  끝번호4
+cnt=1;
+group = 5; (페이지번호갯수)
+startNum = (cnt-1) * group
+endtNum = startNum + group
+for(let i=startNum; i<endtNum; i++){
+
+}
+
+그룹1 
+cnt=1;
+startNum = (1-1) * group
+endtNum = 0 + group
+
+for(let i=0; i<5; i++){
+    0 1 2 3 4
+}
+>
+
+그룹2
+cnt=2;
+startNum = (2-1) * group
+endtNum = 5 + group
+< 
+for(let i=5; i<10; i++){
+   6  7  8  9 10 
+}
+>
+
+그룹3
+cnt=3;
+startNum = (3-1) * group
+endtNum = 10 + group
+< 
+for(let i=10; i<15; i++){
+   11 12 13 14 15
+}
+>
+
+
+그룹4
+cnt=5;
+startNum = (4-1) * group
+endtNum = 15 + group
+< 
+for(let i=15; i<20; i++){
+   16 17 18 19 20 
+}
+
+
+
+
+
+
+

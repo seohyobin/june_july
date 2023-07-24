@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ page import = "kurly.UserDAO" %>
+<%@ page import = "kurly.UserDTO" %>
+<%
+	request.setCharacterEncoding("UTF-8");
+%> 
+
+
+<%
+
+
+		UserDAO userDAO = new UserDAO();
+		int result= pwSearch(request.getParameter("user_id"), request.getParameter("user_hp"), request.getParameter("user_sign_up_date"));
+			out.println();
+		if(userDTO==null){ // 찾는데 실패!
+			%>
+				<script>
+					alert("아이디와 이메일을 확인하고 다시 시도하세요!");
+					history.go(-1);
+				</script>
+			<%
+		}
+		else{ // 찾음 => 검색 결과 아이디를 검색결과.jsp 에 쿼리스트링 파라미터로 보내준다.
+			%>
+				<script>
+					location.href ="./pwSearchResult.jsp?user_pw=<%=userDTO.getUser_pw()%>";
+				</script>
+			<%	
+		}
+		
+	
+%>
+
+
+
+
+
+
+
+
+

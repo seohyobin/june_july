@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;bbsNoticeJSON.jsp&apos; to &apos;bbsNoticeJSON.jsp&apos;&#x0D;&#x0A;- Original project: &apos;bbs&apos;&#x0D;&#x0A;- Destination element: &apos;bbsNoticeJSON.jsp&apos;&#x0D;&#x0A;- Original element: &apos;bbsNoticeJSON.jsp&apos;" description="Copy file" element1="src/main/webapp/bbsNoticeJSON.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1689131357860" target="/bbs/src/main/webapp/bbsNoticeJSON.jsp" units="0" version="1.0"/>
+</session>

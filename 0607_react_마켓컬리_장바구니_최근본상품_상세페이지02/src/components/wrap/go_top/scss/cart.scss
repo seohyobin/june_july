@@ -1,0 +1,223 @@
+#cart{
+    width: 100%;
+
+    .container{
+        width: 100%;
+        max-width: 1050px;
+        margin: 0 auto;
+        .gap{
+            .title{
+                width: 100%;
+                text-align: center;
+                padding: 0 0 70px 0;
+                h1{
+                    padding: 50px 0 48px 0 ;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 35px;
+                }
+            }
+            .content{
+                display: flex;
+                width: 100%;
+                .left{
+                    padding: 0 26px 0 0;
+                    width: 740px;
+                    > ul{
+                        width: 100%;
+
+                        > li{
+                            width: 100%;
+                            &:first-child,&:last-child{
+                                span{
+                                    .select-btn{
+                                        display: inline-flex;
+                                        align-items: center;
+                                        cursor: default;
+                                        height: 30px;
+                                        border: 0;
+                                        background: transparent url(../../img/cart/icon-check-off.svg) no-repeat 0 50%;
+                                        background-size: 24px 24px;
+                                        font-size: 14px; 
+                                        color: #333;
+                                        font-weight: 600;
+                                        &:first-of-type{
+                                            padding: 0 0 0 30px;
+                                            strong{ 
+                                                margin: 0 0 0 5px;
+                                                em{
+                                                 margin: 0  1px;  
+
+                                                }
+                                                i{
+                                                  margin: 0  1px;  
+                                                }
+                                            }
+
+                                        }
+                                        &.on{
+                                            &:first-of-type{
+                                                background-image: url(../../img/cart/icon-check-on.svg) no-repeat 0 50% ;
+                                            }
+                                            &:last-of-type{
+                                                cursor: pointer;
+                                            }
+
+                                        }
+                                    }
+                                    > i{
+                                        font-size: 12px;
+                                        color: #bbb;
+                                        font-weight: 400;
+                                        margin: 0 15px;
+                                    }
+                                    .delete-btn{
+                                        border: 0;
+                                        background-color: transparent;
+                                        font-size: 14px; 
+                                        color: #333;
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+
+
+                        }
+                        &:nth-child(2){
+                            dl{
+                                dt{
+                                    padding: 30px 0 ;
+                                    display: flex;
+                                    > div{
+                                       
+                                        img{}
+                                        h3{
+
+                                        }
+                                        > div{
+                                            button{
+                                                img{
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                dd{
+                                    padding: 20px 0 ;
+                                    ul{
+                                        display: flex;
+                                        li{
+                                            &:nth-child(1){
+                                                input{
+
+                                                }
+                                            }
+                                            &:nth-child(2){
+                                                > span{}
+
+                                            }
+                                            &:nth-child(3){
+                                                > a{
+                                                    p{}
+                                                }
+                                            }
+                                            &:nth-child(4){
+                                                > div{
+                                                    button{
+                                                        &:first-of-type{}
+                                                        &:last-of-type{}
+                                                    }
+                                                  
+                                                    > strong{}
+                                                    
+                                                }
+                                            }
+                                            &:nth-child(5){
+                                                > span{
+
+                                                }
+                                            }
+                                            &:nth-child(6){
+                                                a{
+
+                                                }
+                                            }
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    width: 284px;
+                    > ul{
+                       > li{
+
+                        &:nth-child(1){
+                            > h3{
+                                > img{
+     
+                                }
+                             }
+                             > p{
+                                 > em{
+     
+                                 }
+                             }
+                             > h4{
+     
+                             }
+                             > button{
+                                 > img{
+     
+                                 }
+                             }
+                        }
+                        &:nth-child(2){
+                            div{
+                                &.row1{
+                                    > p{
+                                         > strong{}
+                                         &:nth-child(2){
+                                            > span{}
+
+                                         }
+                                     }
+                                 }
+                                 &.row2{
+                                    > p{
+                                        > strong{
+      
+                                        }
+                                        &:nth-child(2){
+                                            strong{
+                                                em{
+
+                                                }
+                                            }
+                                       }
+                                    }
+                                }
+                            }
+                          
+                             
+                        }
+                        &:nth-child(3){
+                            button{
+
+                            }
+                           > p{
+    
+                            }
+                        }
+
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

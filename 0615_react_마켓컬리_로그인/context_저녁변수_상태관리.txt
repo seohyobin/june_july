@@ -1,0 +1,15 @@
+1.폴더를 생성한다.
+context
+주소관리 먼저 
+AddressApiContent.jsx
+주소...
+...상태관리변수
+
+2.폴더안에 jsx 파일 생성
+3.jsx  파일안에
+import { createContext } from "react";
+
+export const AddressApiContent = createContext(null);
+
+
+

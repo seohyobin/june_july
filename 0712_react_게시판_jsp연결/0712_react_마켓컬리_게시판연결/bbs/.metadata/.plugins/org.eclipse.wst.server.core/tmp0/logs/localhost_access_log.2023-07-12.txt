@@ -1,0 +1,17 @@
+127.0.0.1 - - [12/Jul/2023:13:55:33 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:55:34 +0900] "GET /bbs/write.jsp HTTP/1.1" 200 2186
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:55:34 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:55:48 +0900] "POST /bbs/writeAction.jsp HTTP/1.1" 200 305
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:55:49 +0900] "GET /bbs/login.jsp HTTP/1.1" 200 2704
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:56:11 +0900] "POST /bbs/loginAction.jsp HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:56:12 +0900] "GET /bbs/bbsListAction.jsp HTTP/1.1" 200 3872
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:56:16 +0900] "GET /bbs/write.jsp HTTP/1.1" 200 2142
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:56:26 +0900] "POST /bbs/writeAction.jsp HTTP/1.1" 200 333
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:56:39 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 173
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:57:23 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 173
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:57:38 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 173
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:13:57:45 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 173
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:14:40:47 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:14:40:49 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:14:41:37 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [12/Jul/2023:14:44:40 +0900] "GET /bbs/bbsNoticeJSON.jsp HTTP/1.1" 200 53

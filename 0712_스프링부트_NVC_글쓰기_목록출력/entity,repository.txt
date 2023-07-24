@@ -1,0 +1,23 @@
+DTOEntity
+dto 에서 속성 가져와! -> 칸 할당 @column
+어노테이션 @Entity 
+
+id 값 설정
+ @Id
+ @GeneratedValue 
+private Long id  자동증가!!
+Generate-> constructor , toString
+
+
+
+UserEntityRepository -> extends CrudRepository<UserDTOEntity,Long> 설정
+
+
+    public UserDTOEntity toEntity() {
+        return new UserDTOEntity(null, userName, userHp, userEmail, userSubject, userContent);
+    }
+
+
+    @Autowired
+    private  UserDTOEntityRepository userDTOEntityRepository;
+

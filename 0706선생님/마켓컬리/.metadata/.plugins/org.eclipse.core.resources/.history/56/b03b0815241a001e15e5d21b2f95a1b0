@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ page import = "kurly.UserDAO"  %>
+<%@ page import = "kurly.UserDTO"  %>
+
+<%
+	request.setCharacterEncoding("UTF-8");
+%> 
+
+
+{"이름" : "<%=request.getParameter("user_irum")%>" }
+{"휴대폰" : "<%=request.getParameter("user_hp")%>" }
+<script>
+	alert( request.getParameter("user_irum") );
+	alert( request.getParameter("user_hp") );
+</script>
+
+
+
+
+
+
+

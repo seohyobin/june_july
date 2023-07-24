@@ -1,0 +1,235 @@
+#wrap{
+    width: 100%;
+    .intro{
+        width: 100%;
+        #section1{
+            width: 100%;
+            .container{
+            width: 100%;
+            margin: 0 auto;
+                .gap{
+                    width: 100%;
+                    .content{
+                        width: 100%;
+                        .slide_container{
+                            width: 100%;
+                            .slide-view{
+                                overflow: hidden;
+                                position: relative;
+                                z-index: 1;
+                                .slide-wrap{
+                                    width: 100% * 25;
+                                    display: flex;
+                                    margin:  0 0 0 -100%;
+                                    position: relative;
+                                    // 아니면 transform -> translate X 로 이동!!
+                                    .slide{
+                                        width: 100%;
+                                        a{
+                                            display: block;
+                                            img{width: 100%;}
+                                        }
+                                    }
+                                }
+                            }
+                            .page-count-box{
+                                background-color: rgba(0,0,0,0.3);
+                                padding: 5px 15px; 
+                                position: absolute;
+                                z-index: 2;
+                                bottom:30px ;
+                                left: 50%;
+                                width: 55px;
+                                height: 23px;
+                                text-align: center;
+                                margin: 0 0 0 370px ;
+                                border-radius: 12px ;
+                                em{font-size: 14px; font-weight: 500; color: #fff;}
+                                i{font-size: 14px;color: #fff; font-weight: 500; margin: 0 5px; }
+                            }
+                            .left-arrow-btn{
+                                display: none;
+                                position: absolute;
+                                top: 375px;
+                                left: 320px;
+                                z-index: 2;
+                                transform: rotate(180deg);          
+                            }
+                            .right-arrow-btn{
+                                display: none; 
+                                position: absolute;
+                                top: 375px;
+                                right: 320px;
+                                z-index: 2;
+                            }
+
+
+                        }
+                      
+                    }
+                }
+            }
+        }
+        #sectionTopBanner{
+            width: 100%;
+            .container{
+                width: 100%;
+                max-width:1050px ;
+                margin: 0 auto;
+                padding: 80px 0 0 0 ;
+                .gap{
+                    .content{
+                        width: 100%;
+                        a{
+                            width: 100%;
+                            display: block;
+                            img{
+                                width: 1050px;
+                                height: 140px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section2{
+            width: 100%; 
+            padding: 80px 0;
+            position: relative;
+            .container{
+                width: 100%;
+                max-width: 1068px;
+                margin: 0 auto;  
+                position: relative;
+                .gap{
+                    width: 100%;
+                    .title{
+                        width: 100%;
+                        padding: 0 0 40px 0;
+                        h2{
+                            text-align: center;
+                            font-size: 28px; 
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+                    .content{
+                        width: 100%;
+                        .slide-container{
+                            width: 100%;
+                            .slide-view{
+                                width: 100%;
+                                overflow: hidden;
+                                .slide-wrap{
+                                    width: 25% *36;
+                                    display: flex;
+                                    margin: 0 0 0 (-25% * 8);
+                                    .slide{
+                                        width: 25%;
+                                        .col-gal{
+                                            padding: 0 9px;
+                                            a{
+                                                display: block;
+                                                width: 100%;
+                                                //width auto => margin 0 9px 가능
+                                                .img-box{
+                                                    width: 100%;
+                                                    position: relative;
+                                                    > img{
+                                                        width: 249px;
+                                                        height: 320px;
+                                                        z-index: 1;
+                                                        position: relative;
+                                                    }
+                                                    > span{
+                                                        position: absolute;
+                                                        right: 15px;
+                                                        bottom: 15px;
+                                                        z-index: 2;
+                                                        img{
+                                                            width: auto;
+                                                        }
+                                                    }
+                                                }
+                                                .tex-box{
+                                                    width: 100%;
+                                                     ul{
+                                                    width: 100%;
+                                                    padding: 15px 0 0 0 ;
+                                                    li{
+                                                        width: 100%;
+                                                        padding: 5px 0 ;
+                                                        &:first-child{
+                                                            font-size: 14px; 
+                                                            color: #999;
+                                                        }
+                                                        &:nth-child(3){
+                                                            font-size: 12px;
+                                                            color: #999;
+                                                        }
+                                                        strong,em{
+                                                            font-size: 16px; color: #333; font-weight: 600;
+                                                        }
+                                                        span{
+                                                            &.rate-price{
+                                                                color: #fa622f;
+                                                                font-size: 16px;
+                                                                font-weight: 800;
+                                                            }
+                                                            &.pan-price{
+                                                                font-size: 16px;
+                                                                color: #333;
+                                                                font-weight: 800;
+                                                            }
+                                                        }
+                                                        s{
+                                                            font-size: 14px;
+                                                            color: #b5b5b5;
+                                                        }
+                                                        &:last-child{
+                                                            padding: 2px 8px 4px 8px;
+                                                            width: 75.75px;
+                                                            height: 22px;
+                                                            color: #5f0080;
+                                                            font-size: 12px;
+                                                            font-weight: 500;
+                                                           
+                                                        }
+
+                                                    }
+                                                }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .left-arrorw-btn {
+                position: absolute;
+                left: 50%;
+                top: 275px;
+                margin: 0 0 0 -557px;
+                z-index: 2;
+                img {
+                    width:auto;
+                }
+            }
+            .right-arrorw-btn {
+                position: absolute;
+                right: 50%;
+                top: 275px;
+                margin: 0 -557px 0 0;
+                z-index: 2;
+                transform: rotate(180deg);
+                img {
+                    width:auto;
+                }
+            }
+        }
+
+    }
+}

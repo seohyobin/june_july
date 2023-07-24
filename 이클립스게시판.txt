@@ -1,0 +1,119 @@
+[1]데이터베이스 이름 BBS
+-user 테이블
+create table user(
+    userId    VARCHAR(16) NOT NULL,
+    userPw    VARCHAR(16) NOT NULL,
+    userName  VARCHAR(30) NOT NULL,
+    userEmail VARCHAR(250),
+    PRIMARY KEY(userId)
+);
+create table bbs (
+    bbsId   int  NOT NULL,
+    userId   VARCHAR(16) NOT NULL,
+    subject  VARCHAR(30) NOT NULL,
+    content VARCHAR(4096) NOT NULL,
+    writeDate DATETIME,
+    deleteOk int,
+    PRIMARY KEY(bbsId)
+);
+
+
+INSERT INTO user (userId,userPw,userName,userEmail)
+VALUES
+("luck1409","hyo123456","서효빈","luck1409@gmail.com"),
+("seohyobin","hyo7891011","김슬기","seohyobin@gmail.com"),
+("janeseo","jane123456","최미연","janeseo@gmail.com"),
+("hyesun","hyesun123456","최혜선","hyesun@gmail.com"),
+("dami1234","dam123456","박다미","dam@gmail.com"),
+("yeji1234","yeji123456","전예지","yeji1234@gmail.com"),
+("chloe1234","hyun123456","강경현","chloe1234@gmail.com");
+
+
+-notice bbs board 테이블
+
+
+[2] 프로젝트 생성
+-톰캣 서버 연동
+-서버 등록 (프로젝트 bbs)
+
+[3]webapp
+-index.jsp 만들고 테스트 실행(웹 브라우저에 띄우기)
+
+[4-1] 자바빈즈 DTO 만들기 -> 프로젝트에서 class 만들어 =>UserDTO
+
+-UserDTO
+userId
+userPw
+userName
+userEmail
+PRIMARY KEY(userId)
+[4-2] 
+-BbsDTO
+
+
+UserDTO에서 오른쪽 마우스 source => generate getter and setter
+
+[5]
+
+JDBC=> .jar 드라이버-> 웹앱라이브러리에 복사 붙여넣기!
+서버를 종료 후 다시 실행한다.
+
+[6-1]
+UserDAO 만들기
+ ctrl shift o 하면 자동 임포트
+[6-2]
+BbsDAO
+
+
+글쓰기 메소드
+계산입력 /화면입력/화면입력/화면입력 /  DAO시스템날짜/            /DAO 기본값1/
+글번호 / 제목 30 /  작성자/ 내용 4096  / 작성일(현재날짜시간) /삭제여부기본값1 (0->삭제된것 변경 )
+bbsId;/ subject; /  userId; /  content; /         writeDate;/                  deleteOk;
+	
+	
+	
+	
+
+내림차순으로 마지막 글번호 +1
+
+3
+2
+1
+
+
+[7] 프로젝트 오른쪽 마우스 buildpath =>config build path ->  JDBC=> .jar 드라이버(mysql) 이거 등록!!!   
+
+[8]
+-JDBC userEmail
+-DBID
+-DBPW
+-forName
+-connction->
+
+BBS
+
+1.로그인
+	로그인,로그아웃
+2.게시판
+
+	글쓰기
+	글보기
+	글수정 
+	글삭제
+	글목록
+2-1. 글쓰기 폼 디자인   =>    write.jsp =>writeAction.jsp
+	로그인한 사용자
+	글제목
+	글내용
+
+
+/// viewAction
+	게시판 목록에서 보내온 쿼리스트링 키와 키 값을 받아서 DAO에게 전달
+	그럼 DAO는 해당 글번호에 상세내용을 return 해준다.
+	리턴받은 글 내용 모두를 현재 페이지에 내용을 모두 바인딩해서 화면에 보여준다.
+
+
+
+//\"제목\":\"list.get(i).getSubject()\", \"작성자\":\"...\", \"작성일\":\"...\"},");
+
+	

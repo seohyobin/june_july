@@ -1,0 +1,41 @@
+localhost:8080/JSP/0508_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_main.jsp
+
+
+메인페이지 예시
+
+회원과 비회원 페이지관리
+
+
+///비회원////////////
+             <div class="content">
+                    <h3>접속하기</h3>
+                    <ul>
+                        <li><a href="./kurly_user_signin.jsp">로그인</a></li>
+                        <li><a href="./kurly_user_signup.jsp">회원가입</a></li>
+                    </ul>
+                </div>
+
+
+
+
+///회원/////////////    
+                <div class="content">
+                    <h3>회원관리</h3>
+                    <ul>
+                        <li><a href="./kurly_user_update.jsp">개인정보수정</a></li>
+                        <li><a href="./kurly_user_delete.jsp">회원탈퇴</a></li>
+                        <li><a href="./로그아웃페이지만들어!.jsp">로그아웃</a></li>
+                    </ul>
+                </div>
+
+
+//로그아웃 액션페이지
+kurly_user_logout_action.jsp
+kurly_user_logout.jsp
+세션 삭제 후 메인페이지로 이동
+
+
+//회원탈퇴 액션
+로그인후 상태에서만 가능!!!!!!!
+삭제폼에서 아이디 입력상자에 로그인 아이디가 바인딩 되어있고
+비밀번호는 비어있다. 비밀번호를 입력하고 탈퇴버튼을 클릭 전송하여 구현한다.

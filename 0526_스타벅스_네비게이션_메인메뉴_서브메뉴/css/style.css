@@ -1,0 +1,17 @@
+@import url("../css/fonts.css");
+@import url("../css/reset.css");
+@import url("../css/header.css");
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section1 {
+  width: 100%;
+  height: 615px;
+  background: url(../img/2023_summer1_promotion_bg_1_230426.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}

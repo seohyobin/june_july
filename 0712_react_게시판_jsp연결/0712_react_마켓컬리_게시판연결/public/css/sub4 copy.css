@@ -1,0 +1,18 @@
+#sub4 {
+  width: 100%;
+}
+#sub4 div {
+  width: 100%;
+}
+#sub4 div .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#sub4 div .container .content {
+  width: 100%;
+}
+#sub4 div .container .content img {
+  width: auto;
+  padding: 0 0 10px 0;
+}

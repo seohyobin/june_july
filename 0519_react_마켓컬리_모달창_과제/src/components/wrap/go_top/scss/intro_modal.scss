@@ -1,0 +1,53 @@
+#wrap{
+    width: 100%;
+    #introModal{
+        background-color: rgba(0,0,0,0.1);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        left: 0;
+        z-index: 5;
+         > .container{
+                width: 100%;
+                max-width: 440px;
+                margin: 0 auto;
+                background-color: rgba(0,0,0,0.2);
+           >  .content{
+                width: 100%;
+             h1{
+    
+             }   
+             img{
+                width: 440px;
+                height: 586px;
+             }
+             .btn{
+                padding: 15px 0 ;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+              
+               
+                button{
+                    cursor: pointer;
+                    width: 50%;
+                    border: 0;
+                    font-size: 16px;
+                    text-align: center;
+                    justify-content: center;
+                    border-right:1px solid #ddd ;
+                    color: #5f0080;
+                    font-weight: 600;
+                    display: flex;
+                    height: 30px;
+                    background-color: transparent;
+                   
+                }
+             }
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+화면설계
+
+404페이지 컴포넌트 
+존재하지 않는 페이지 입니다.
+
+NotView404PageComponent.jsx
+
+
+
+랩퍼박스에 컴폰넌트 
+
+고탑 버튼
+GoTopComponent.jsx
+
+퀵메뉴
+QuickMenuComponent.jsx
+
+
+
+
+마켓컬리 전체 페이지 에서 사용할 수 있도록
+컨펌모달창을 모듈화작업을한다.
+모듈화작업이란 컨펌모달 jsx 요소를 
+최상위 컴포넌트인 WrapComponent.jsx 에 
+자식컴폰넌트로 생성한다.
+
+그리고 메시지와 
+모달창닫기
+모달창열기 등
+이벤트를 다른 모든 컴포넌트에서 각기 구현하도록
+컨트롤러와 탬플릿을 구현한다.
+
+1. 컨펌모달  : ConfirmModal.jsx
+
+
+
+
+
+회원가입폼
+
+생년 월 일
+입력상자 입력제한조건 분석하기
+0. 숫자만 입력 나머지 모두 제거 => 정규표현식
+1. 모든 칸이 빈칸이면 오류없음 초기화
+2. 년(100세이하) 채워지면 => 월 입력 요구
+2. 년(14세미만) 채워지면 => 월 입력 요구
+2. 년(미래년도안된다.) 채워지면 => 월 입력 요구
+3. 월(1-12) 채워지면 => 일 입력 요구
+4. 일(1-31) 이 채워지고 오류가 없다면 완료
+
+
+
+탑모달
+헤더
+
+메인
+    -인트로페이지
+
+    - IntroMainComponent.jsx
+        - Section1Component.jsx
+            - Section1SlideComponent.jsx
+
+        - Section2Component.jsx
+
+        - Section3Component.jsx
+            - Section3SlideComponent.jsx
+
+
+        - Section4Component.jsx
+            - Section4SlideComponent.jsx
+
+
+        - Section5Component.jsx
+            - Section5SlideComponent.jsx
+
+        - Section6Component.jsx
+
+
+        - Section7Component.jsx
+            - Section7SlideComponent.jsx
+
+        - Section8Component.jsx
+
+
+
+
+    -서브1페이지 
+    -서브2페이지
+    -서브3페이지
+    -서브4페이지
+    -서브4페이지
+    -서브4페이지
+    -서브4페이지
+    -서브4페이지
+    -서브4페이지
+    -서브4페이지
+Sub1Component.jsx
+Sub2ComponentChild.jsx
+Sub2Component.jsx
+Sub2ComponentChild.jsx
+Sub3Component.jsx
+Sub3ComponentChild.jsx
+Sub4Component.jsx
+Sub4ComponentChild.jsx
+
+// 상품 상세페이지
+ProductComponent.jsx
+CartComponent.jsx
+
+2칸
+좌측
+width: 262.5
+스티키 
+스크롤바 디자인
+메뉴 체크박스 
+
+
+우측
+width: 787.5
+3칸
+1칸 : 250  정렬
+여백 자동 계산
+
+ 	
+
+
+
+푸터
+
+퀵메뉴
+고탑버튼(점프)
+
+
+=================
+컴포넌트 설계
+
+index.js
+폴더 components 
+    WrapComponent.jsx
+    폴더 wrap
+        TopModalComponent.jsx
+        HeaderComponent.jsx
+//////////////////////////////////////////////////
+
+        IntroMainComponent.jsx
+
+        Sub1PageComponent.jsx        
+        Sub2PageComponent.jsx        
+        Sub3PageComponent.jsx        
+        Sub4PageComponent.jsx   
+        // 회원가입폼제작1     
+        SignUpComponent.jsx        
+        SignInComponent.jsx  
+        SignInIdSearchComponent.jsx  
+        SignInPwSearchComponent.jsx  
+        SignInPwResetComponent.jsx  
+
+        NoticeComponent.jsx    좌측 카테고리 우측 목록(리스트) 출력 한화면에 
+            - NoticeLeftNavComponent.jsx
+            - NoticeRightListComponent.jsx
+        NoticeViewPageComponent.jsx
+        NoticeDeletePageComponent.jsx
+        NoticeInsertFormPageComponent.jsx
+        NoticeUpdateFormPageComponent.jsx
+         
+
+        404페이지
+        NotView404PageComponent.jsx
+
+//////////////////////////////////////////////////
+
+        FooterComponent.jsx
+        
+        GoTopComponent.jsx
+        QuickMenuComponent.jsx
+        MainModalComponent.jsx
+        PostCodeComponent.jsx
+        
+
+
+////////////////////////////////////////
+회원가입 사이트
+
+컴포넌트 설계
+
+index.js
+폴더 components 
+    WrapComponent.jsx
+
+    폴더 wrap
+        
+        TopModalComponent.jsx
+
+        HeaderComponent.jsx
+        
+        // 회원가입폼제작1     
+        SignUpComponent.jsx        
+
+        FooterComponent.jsx
+
+
+<svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_2073_60924)">
+        <path d="M26 26L6 6" stroke="rgba(242, 242, 242, 0.7)" stroke-linecap="round" stroke-width="0"></path>
+        <path d="M6 26L26 6" stroke="rgba(242, 242, 242, 0.7)" stroke-linecap="round" stroke-width="0"></path>
+    </g>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.28431 5.58859L6.35355 5.64645L16 15.293L25.6464 5.64645C25.8417 5.45118 26.1583 5.45118 26.3536 5.64645C26.5271 5.82001 26.5464 6.08944 26.4114 6.28431L26.3536 6.35355L16.707 16L26.3536 25.6464C26.5488 25.8417 26.5488 26.1583 26.3536 26.3536C26.18 26.5271 25.9106 26.5464 25.7157 26.4114L25.6464 26.3536L16 16.707L6.35355 26.3536C6.15829 26.5488 5.84171 26.5488 5.64645 26.3536C5.47288 26.18 5.4536 25.9106 5.58859 25.7157L5.64645 25.6464L15.293 16L5.64645 6.35355C5.45118 6.15829 5.45118 5.84171 5.64645 5.64645C5.82001 5.47288 6.08944 5.4536 6.28431 5.58859Z" fill="rgba(242, 242, 242, 0.7)">
+    </path>
+</svg>
+
+이미지
+JPG 24비트 = 256*256*256 + 비트맵
+GIF 8비트 = 256 & 애니메이션 + 비트맵
+PNG 24비트 = 배경 투명도 지원 + 비트맵
+SVG 24비트 + 애니메이션 + 벡터방식

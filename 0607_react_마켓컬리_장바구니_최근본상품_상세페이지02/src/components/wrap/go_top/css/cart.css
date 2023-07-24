@@ -1,0 +1,89 @@
+#cart {
+  width: 100%;
+}
+#cart .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#cart .container .gap .title {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+#cart .container .gap .title h1 {
+  padding: 50px 0 48px 0;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+}
+#cart .container .gap .content {
+  display: flex;
+  width: 100%;
+}
+#cart .container .gap .content .left {
+  padding: 0 26px 0 0;
+  width: 740px;
+}
+#cart .container .gap .content .left > ul {
+  width: 100%;
+}
+#cart .container .gap .content .left > ul > li {
+  width: 100%;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn, #cart .container .gap .content .left > ul > li:last-child span .select-btn {
+  display: inline-flex;
+  align-items: center;
+  cursor: default;
+  height: 30px;
+  border: 0;
+  background: transparent url(../../img/cart/icon-check-off.svg) no-repeat 0 50%;
+  background-size: 24px 24px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn:first-of-type, #cart .container .gap .content .left > ul > li:last-child span .select-btn:first-of-type {
+  padding: 0 0 0 30px;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn:first-of-type strong, #cart .container .gap .content .left > ul > li:last-child span .select-btn:first-of-type strong {
+  margin: 0 0 0 5px;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn:first-of-type strong em, #cart .container .gap .content .left > ul > li:last-child span .select-btn:first-of-type strong em {
+  margin: 0 1px;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn:first-of-type strong i, #cart .container .gap .content .left > ul > li:last-child span .select-btn:first-of-type strong i {
+  margin: 0 1px;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn.on:first-of-type, #cart .container .gap .content .left > ul > li:last-child span .select-btn.on:first-of-type {
+  background-image: url(../../img/cart/icon-check-on.svg) no-repeat 0 50%;
+}
+#cart .container .gap .content .left > ul > li:first-child span .select-btn.on:last-of-type, #cart .container .gap .content .left > ul > li:last-child span .select-btn.on:last-of-type {
+  cursor: pointer;
+}
+#cart .container .gap .content .left > ul > li:first-child span > i, #cart .container .gap .content .left > ul > li:last-child span > i {
+  font-size: 12px;
+  color: #bbb;
+  font-weight: 400;
+  margin: 0 15px;
+}
+#cart .container .gap .content .left > ul > li:first-child span .delete-btn, #cart .container .gap .content .left > ul > li:last-child span .delete-btn {
+  border: 0;
+  background-color: transparent;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+#cart .container .gap .content .left > ul:nth-child(2) dl dt {
+  padding: 30px 0;
+  display: flex;
+}
+#cart .container .gap .content .left > ul:nth-child(2) dl dd {
+  padding: 20px 0;
+}
+#cart .container .gap .content .left > ul:nth-child(2) dl dd ul {
+  display: flex;
+}
+#cart .container .gap .content .right {
+  width: 284px;
+}

@@ -1,0 +1,43 @@
+#mainModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#mainModal .container {
+  width: 1068px;
+  margin: 260px auto 0 auto;
+}
+#mainModal .container .content {
+  width: 100%;
+}
+#mainModal .container .content .modal {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 440px;
+  height: 476px;
+  background-color: #fff;
+}
+#mainModal .container .content .modal .img-box {
+  width: 100%;
+}
+#mainModal .container .content .modal .img-box > img {
+  width: 100%;
+}
+#mainModal .container .content .modal .button-box {
+  border: 1px solid transparent;
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+#mainModal .container .content .modal .button-box button {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+<header id="header">
+    <nav id="nav">
+            <span class="home">
+                 <a href="./index.html">HOME</a>
+            </span>
+        <span class="view">
+                <a href="/write.do">글쓰기</a>
+           </span>
+    </nav>
+</header>
+
+<div id="list">
+    <div class="container-list">
+        <div class="title">
+            <h2>USER LIST</h2>
+        </div>
+        <form>
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <th>HP</th>
+                    <th>EMAIL</th>
+                    <th>SUBJECT</th>
+                    <th>CONTENT </th>
+                </tr>
+
+                {{#userList}}
+                    <tr>
+                        <td>{{userName}}</td>
+                        <td>{{userHp}}</td>
+                        <td>{{userEmail}}</td>
+                        <a href=""><td>{{userSubject}}</td></a>
+                        <td>{{userContent}}</td>
+                    </tr>
+                {{/userList}}
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>

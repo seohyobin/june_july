@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url(./fonts.css);
+@import url(./reset.css);
+
+#root {width:100%;}
+#root #kurly {width:100%;}
+#root #kurly .title {text-align:center;width:100%;height:85px;border-bottom:1px solid #ccc;background:#fff;position:fixed;top:0;left:0;z-index:2;}
+#root #kurly .title img {width:110px;}
+
+
+#root #kurly .content {position:relative;z-index:1;width:650px;margin:85px auto;}
+#root #kurly .content h1 {font-size:30px;font-weight:500;padding:50px 0 50px 0;text-align:center;}
+#root #kurly .content h4 {text-align:right;border-bottom:2px solid #333;padding:0 0 10px 0;}
+#root #kurly .content h4 span {font-size:12px;}
+#root #kurly .content h4 span i {color:#c00;}
+
+#root #kurly .content form {width:100%;}
+#root #kurly .content form ul {width:100%;padding:10px 0 0 0;}
+#root #kurly .content form ul li {width:100%;}
+#root #kurly .content form ul li .gap {width:100%;display:flex;padding:10px 0;}
+/* 왼쪽박스: 레이블 */
+#root #kurly .content form ul li .gap .left {width:160px;height:45px;display:flex;padding:0 0 0 25px;}
+#root #kurly .content form ul li .gap .left span {font-size:15px;font-weight:500;margin:auto auto auto 0;}
+#root #kurly .content form ul li .gap .left span i {color:#c00;}
+
+/* 오른쪽박스: 입력상자 */
+#root #kurly .content form ul li .gap .right {width:490px;padding:0 160px 0 0;position: relative;}
+#root #kurly .content form ul li .gap .right .input-box {width:100%;height:45px;border:1px solid #ccc;padding:0 15px;border-radius:3px;background:#fff;}
+#root #kurly .content form ul li .gap .right .input-box:focus {outline:1px solid #666;outline-offset:-1px;}
+#root #kurly .content form ul li .gap .right .input-box::placeholder {color:#ccc;font-size:15px;}
+/* 폰 인증 입력상자 */
+#root #kurly .content form ul li .gap .right .input-box.phone-check {margin-top:10px;}
+
+#root #kurly .content form ul li .gap .right .confirm-btn {width:120px;height:45px;border:1px solid #5f0080;padding:0 15px;position:absolute;right:30px;top:0;color:#5f0080;background:#fff;cursor:pointer;border-radius:3px;}
+#root #kurly .content form ul li .gap .right .confirm-btn.overlap-btn {color:#ccc;border:1px solid #ccc;}
+#root #kurly .content form ul li .gap .right .confirm-btn.phone-check {top:55px;}
+
+#root #kurly .content form ul li .gap .right .address-btn {color:#5f0080;border:1px solid #5f0080;width:100%;height:45px;border-radius:3px;background:#fff;cursor:pointer;}
+#root #kurly .content form ul li .gap .right .address-btn span i {margin:-4px 3px 0 0;}
+#root #kurly .content form ul li .gap .right .address-info-text {color:#777;font-size:12px;padding:10px 0;}
+
+/* 입력상자 입력제한 텍스트 '' : error : success */
+#root #kurly .content form ul li .gap .right .input-limit-text {padding:10px 0 0 0;}
+#root #kurly .content form ul li .gap .right .input-limit-text p {color:#777;font-size:12px;line-height:160%;}
+#root #kurly .content form ul li .gap .right .input-limit-text p::before {content:'\2022';display:inline-block;margin:0 3px 0 0;}
+#root #kurly .content form ul li .gap .right .input-limit-text p.error {color:#b3130b;}
+#root #kurly .content form ul li .gap .right .input-limit-text p.error::before {content:'\2715';}
+#root #kurly .content form ul li .gap .right .input-limit-text p.success {color:#0f851a;}
+#root #kurly .content form ul li .gap .right .input-limit-text p.success::before {content:'\2713';}
+
+/* 타임 카운터 */
+#root #kurly .content form ul li .gap .right .time-counter {position:absolute;top:70px;right:175px;color:#b3130b;font-size:15px;font-weight:600;}
+
+/* 주소 */
+
+#root #kurly .content form ul li .gap .right.address input[type='text'] {margin:0 0 10px;}
+
+
+/* 성별 */
+#root #kurly .content form ul li .gap .right .radio-box {width:100%;display:flex;height:45px;align-items:center;}
+#root #kurly .content form ul li .gap .right .radio-box label {font-size:15px;color:#333;display:flex;}
+#root #kurly .content form ul li .gap .right .radio-box label input[type='radio'] {width:24px;height:24px;border:1px solid #ddd;appearance:none;margin:0 10px 0 0;border-radius:50%;}
+#root #kurly .content form ul li .gap .right .radio-box label input[type='radio']:checked {border:6px solid #5f0080;appearance:none;}
+#root #kurly .content form ul li .gap .right .radio-box label:nth-child(1) {margin:0 auto 0 0;}
+#root #kurly .content form ul li .gap .right .radio-box label:nth-child(2) {margin:0 auto 0 auto;}
+#root #kurly .content form ul li .gap .right .radio-box label:nth-child(3) {margin:0 0 0 auto;}
+#root #kurly .content form ul li .gap .right .radio-box label span {margin:3px 0 0 0;}
+
+/* 생년월일 */
+#root #kurly .content form ul li .gap .right .date-box {display:flex;text-align:center;width:100%;height:45px;border:1px solid #ccc;border-radius:3px;align-items:center;padding:0 20px;background:#fff;}
+#root #kurly .content form ul li .gap .right .date-box span:nth-child(odd) {width:30%;}
+#root #kurly .content form ul li .gap .right .date-box span:nth-child(even) {width:5%;}
+#root #kurly .content form ul li .gap .right .date-box span input {width:100%;border:0;text-align:center;}
+#root #kurly .content form ul li .gap .right .date-box span input::placeholder {text-align:center;}
+#root #kurly .content form ul li .gap .right .date-box span input:focus {outline:0;}
+#root #kurly .content form ul li .gap .right .date-box span i {font-size:12px;color:#999;}
+
+/* 추천인 */
+#root #kurly .content form ul li .gap .right .recommender-box label:nth-child(2) {margin:0 0 0 auto;}
+
+#root #kurly .content form ul li .gap .right .add-item p {padding:10px 0;font-size:12px;color:#333;line-height:160%;}
+
+
+
+
+
+/* 하단 구분선 */
+#root #kurly .content form ul li hr {border:0;border-bottom:1px solid #333;width:100%;margin:10px 0;}
+
+/* 체크박스  이용약관동의 */
+#root #kurly .content form ul li:last-child .gap {width:100%;display:flex;padding:10px 0 20px 0;}
+#root #kurly .content form ul li:last-child .gap .left {width:160px;height:auto;display:block;padding:12px 0 0 25px;}
+#root #kurly .content form ul li:last-child .gap .left span {font-size:15px;font-weight:500;margin:0;}
+#root #kurly .content form ul li:last-child .gap .left span i {color:#c00;}
+
+#root #kurly .content form ul li:last-child .gap .right {width:490px;padding:0;position:relative;}
+#root #kurly .content form ul li:last-child .gap .right .check-box {width:100%;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl {width:100%;}
+
+/* checkAll */
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dt {width:100%;padding:10px 0;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dt label {display:flex;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dt label input[type='checkbox'] {width:24px;height:24px;border:1px solid #ddd;appearance:none;margin:0 10px 0 0;border-radius:50%;background:url(../img/ico_checkbox.svg) no-repeat 50% 50%;background-size:24px 24px;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dt label input[type='checkbox']:checked {background-image:url(../img/ico_checkbox_checked.svg);}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dt label span {font-size:18px;font-weight:600;margin:0;line-height:22px;user-select:none;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dt p {padding:5px 0 0 34px;font-size:12px;color:#666;}
+
+
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd {width:100%;padding:10px 0;position:relative;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > label {font-size:15px;color:#333;display:flex;position:relative;z-index:1;width:100%;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > label > input[type='checkbox'] {width:24px;height:24px;border:1px solid #ddd;appearance:none;margin:0 10px 0 0;border-radius:50%;background:url(../img/ico_checkbox.svg) no-repeat 50% 50%;background-size:24px 24px;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > label > input[type='checkbox']:checked {background-image:url(../img/ico_checkbox_checked.svg);}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > label > span {font-size:15px;font-weight:500;margin:0;line-height:24px;user-select:none;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > a {position:absolute;top:15px;right:30px;z-index:2;font-size:14px;color:#5f0080;padding:0 9px 0 0;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > a::after {content:'\003E';font-size:10px;position:absolute;top:50%;right:0;margin-top:-5px;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > div.chk4-sub {display:flex;flex-flow:row wrap;padding:15px 0 0 34px;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > div label {font-size:15px;color:#333;display:flex;width:30%;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > div label input[type='checkbox'] {width:24px;height:24px;border:1px solid #ddd;appearance:none;margin:0 10px 0 0;border-radius:50%;background:url(../img/ico_checkbox.svg) no-repeat 50% 50%;background-size:24px 24px;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > div label input[type='checkbox']:checked {background-image:url(../img/ico_checkbox_checked.svg);}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > div label span {font-size:15px;font-weight:500;margin:0;line-height:24px;user-select:none;}
+#root #kurly .content form ul li:last-child .gap .right .check-box dl dd > div p {width:100%;margin:15px 0 0 34px;font-size:12px;color:#5f0080;padding:0 0 0 15px;background:url(../img/ico_sub_dot.svg) no-repeat 0 50%;}
+
+/* 전송버튼: 가입하기 */
+#root #kurly .content form .button-box {padding:50px 0 100px 0;border-top:1px solid #ddd;text-align:center;}
+#root #kurly .content form .button-box button {width:250px;height:60px;background:#5f0080;color:#fff;font-size:18px;font-weight:600;border:0;border-radius:5px;cursor:pointer;}
+
+
+/* 모달창 */
+.modal {position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0, .5);z-index:3;display:flex;}
+.modal .container {width:490px;height:270px;background:#fff;margin:auto;}
+.modal .container .top {width:100%;height:170px;background:#fff;}
+.modal .container .top ul {width:100%;padding:0 25px;}
+.modal .container .top ul li {width:100%;display:flex;}
+.modal .container .top ul li:first-child {height:60px;border-bottom:1px solid #ccc;}
+.modal .container .top ul li:last-child {height:110px;}
+.modal .container .top ul li h2  {margin:auto auto auto 0;font-size:15px;font-weight:600;color:#333;}
+.modal .container .top ul li span {margin:auto 0 auto auto;}
+.modal .container .top ul li span a img {width:32px;}
+.modal .container .top ul li p {width:100%;text-align:center;font-size:14px;color:#444;margin:auto 0;font-weight:500;}
+
+.modal .container .bottom {width:100%;height:100px;background:#f4f4f4;display:flex;}
+.modal .container .bottom button {width:150px;height:45px;background:#5f0080;color:#fff;font-weight:600;font-size:15px;border:0;border-radius:3px;margin:auto;cursor:pointer;}
+
+
+

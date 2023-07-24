@@ -1,0 +1,33 @@
+#quickMenu {
+  width: 80px;
+  position: absolute;
+  top: 53 1.52px;
+  right: 10px;
+  z-index: 2;
+  padding: 100px 0;
+}
+#quickMenu.on {
+  position: fixed;
+  top: 50%;
+  margin-top: -100px;
+}
+#quickMenu > ul > li:nth-child(1) a img {
+  width: 80px;
+  height: 120px;
+}
+#quickMenu > ul > li:nth-child(2) span {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+#quickMenu > ul > li:nth-child(2) span:first-child {
+  border-top: 1px solid #ddd;
+}
+#quickMenu > ul > li:nth-child(2) span a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  justify-content: center;
+  font-weight: 500;
+}

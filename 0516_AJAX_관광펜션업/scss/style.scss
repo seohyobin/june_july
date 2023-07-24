@@ -1,0 +1,40 @@
+@import url('../css/fonts.css');
+@import url('../css/reset.css');
+body{
+    padding: 0 0 200px 0;
+}
+nav{
+    padding: 20px 0;
+    text-align: right;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    a{
+        margin: 0 5px;
+        font-size: 15px;
+        font-weight: 600;
+        &:hover{
+            color: #5f0080;
+        }
+    }
+
+}
+table{
+    width: 100%;
+    max-width: 1800px;
+    margin: 100px auto;
+    border-collapse: collapse;
+    caption{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        padding: 0 0 50px 0;
+    }
+    th,td{
+        height: 50px;
+        border-bottom:1px solid #ddd ;
+    }
+    th{height: 70px; background-color: #f3f3f3; font-size: 16px; color: #222; border-top:2px solid #000 ; border-bottom:1px solid #000 ;}
+    td{background-color: #fff; font-size: 15px; text-align: center; font-size: 12p;}
+    tr:nth-child(odd) {background-color: #f6f6f6; font-size: 15px;}
+}

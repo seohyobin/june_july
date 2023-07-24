@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DATA_RESULT [
+  <!ELEMENT DATA_RESULT (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (DONOR_NAME?,TITLE?,AGE_INFO?,LINE_DESC?,REGISTER_DATE?,MODITY_DATE?,MOVIE_CD?,FILE_FMAT?,FILE_SIZE_MB_?,KOGLCD?)+>
+  <!ELEMENT DONOR_NAME (#PCDATA)>
+  <!ELEMENT TITLE (#PCDATA)>
+  <!ELEMENT AGE_INFO (#PCDATA)>
+  <!ELEMENT LINE_DESC (#PCDATA)>
+  <!ELEMENT REGISTER_DATE (#PCDATA)>
+  <!ELEMENT MODITY_DATE (#PCDATA)>
+  <!ELEMENT MOVIE_CD (#PCDATA)>
+  <!ELEMENT FILE_FMAT (#PCDATA)>
+  <!ELEMENT FILE_SIZE_MB_ (#PCDATA)>
+  <!ELEMENT KOGLCD (#PCDATA)>
+]>
+<DATA_RESULT>
+  <DATA_RECORD>
+    <DONOR_NAME>윤영호</DONOR_NAME>
+    <TITLE>윤영호 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤영호 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-30</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>86.74</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤영호</DONOR_NAME>
+    <TITLE>기증자 윤영호 학창시절과 육군시절</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤영호의 일제강점기 학창시절과 육군사관학교 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-30</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>136.16</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤영호</DONOR_NAME>
+    <TITLE>경부고속도로 건설준비 참여</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤영호의 노선 확정, 예산 검토 임무 등 경부고속도로 건설준비 참여 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-30</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>163.47</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤영호</DONOR_NAME>
+    <TITLE>경부고속도로 건설과정과 일화</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤영호가 참여한 경부고속도로 건설과정과 고속도로 완공 이후 일화에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-30</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>134.89</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤영호</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤영호의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-30</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>99.25</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이영형</DONOR_NAME>
+    <TITLE>이영형 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이영형의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>109.25</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이영형</DONOR_NAME>
+    <TITLE>기증자 이영형 학창시절과 아버지 이학우 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이영형의 일제강점기 학창시절과 아버지 이학우의 자동차 사업 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>164.93</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이영형</DONOR_NAME>
+    <TITLE>기증자 이영형 6.25전쟁 소년병 참전과 군 입대 경험</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이영형의 6.25전쟁 소년병 참전 경험과 수도자동차교습소 졸업 및 군대 복무 시절 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>167.51</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이영형</DONOR_NAME>
+    <TITLE>기증자 이영형의 택시운전 이야기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이영형의 택시운전 시작부터 택시 요금, 모범운전자 제도, 무사고운전 등 택시운전 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>203.1</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이영형</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이영형의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>152.36</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>지익표</DONOR_NAME>
+    <TITLE>지익표 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 지익표 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>109.35</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>지익표</DONOR_NAME>
+    <TITLE>기증자 지익표 소개 및 학창시절</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 지익표의 일제강점기 학창 시절에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>135.96</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>지익표</DONOR_NAME>
+    <TITLE>기증자 지익표 판사 시절과 부인 이기봉의 광주YWCA 활동</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 지익표 판사. 변호사 시절과 부인 이기봉의 광주YWCA 활동 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>221.06</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>지익표</DONOR_NAME>
+    <TITLE>사할린동포법률구조회 구성 및 사할린동포 위자료 청구소송 제기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 지익표의 사할린동포법률구조회 활동과 사할린동포 위자료 청구소송 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>123.72</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>지익표</DONOR_NAME>
+    <TITLE>대일민간법률구조회 결성 및 위안부 피해자, 강제징용 피해자 손해배상 청구소송 제기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 지익표의 대일민간법률구조회 활동과 일제강점기 피해자 손해배상 청구소송 진행 관련 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>111.7</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>지익표</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 지익표의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-10-29</REGISTER_DATE>
+    <MODITY_DATE>2018-12-20</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>146.2</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손동헌</DONOR_NAME>
+    <TITLE>손동헌 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손동헌 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>98.76</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손동헌</DONOR_NAME>
+    <TITLE>북청농업전문학교와 6.25전쟁 발발</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손동헌의 학창시절과 6.25전쟁 경험 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>153.15</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손동헌</DONOR_NAME>
+    <TITLE>6.25전쟁 피난과 흥남철수</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손동헌의 흥남철수 배를 타고 거제도에 도착하기까지의 과정에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>203.83</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손동헌</DONOR_NAME>
+    <TITLE>피난민 생활과 중앙대학교 약학대학 입학</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손동헌의 피난 이후 거제도, 부산에서의 정착 생활과 중앙대학교 약학대학 1회 입학 과정에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>207.53</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손동헌</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손동헌의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>169.34</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송상용</DONOR_NAME>
+    <TITLE>송상용 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송상용 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>103.52</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송상용</DONOR_NAME>
+    <TITLE>대학시절과 68혁명</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송상용의 서울대학교 화학과, 철학과 재학시절 및 미국 유학에서 경험한 68혁명에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>185.29</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송상용</DONOR_NAME>
+    <TITLE>대학 강사와 교수 재직 생활</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송상용의 성균관대, 한림대 재직 생활과 '지식인 134인 시국선언' 당시 상황과 활동에  관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>152.76</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송상용</DONOR_NAME>
+    <TITLE>1970년대 과학 대중화 운동</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송상용의 1970년대 현대과학신서 발간 등 과학 대중화 운동과 해외 저명 과학사학자들과의 인연에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>247.55</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송상용</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송상용의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-08</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>117.62</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김용문</DONOR_NAME>
+    <TITLE>김용문 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김용문 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>112.26</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김용문</DONOR_NAME>
+    <TITLE>해병대 입대와 베트남 파병</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김용문의 베트남 파병 과정과 맡았던 업무, 귀국 후 상황 등에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>212.17</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김용문</DONOR_NAME>
+    <TITLE>대한석탄공사 근무와 파독광부 지원</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김용문의 성주, 은성광업소 근무 시절과 파독광부 지원 계기 및 조건 등에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>154.76</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김용문</DONOR_NAME>
+    <TITLE>독일 광산 근무와 독일 생활</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김용문의 독일 광산 업무 내용 및 근무 조건 등에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>168.82</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김용문</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김용문의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>159.02</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤중모</DONOR_NAME>
+    <TITLE>윤중모 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤중모 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>123.99</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤중모</DONOR_NAME>
+    <TITLE>학창시절과 철도청 입사</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤중모의 교통고등학교 재학과 철도청 근무 시절에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>130.44</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤중모</DONOR_NAME>
+    <TITLE>지하철 건설본부 입사</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤중모의 지하철 건설본부 입사와 근무에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>181.49</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤중모</DONOR_NAME>
+    <TITLE>지하철 건설본부 근무 일화</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤중모의 시청역 개통식 등 지하철 건설본부 근무 일화에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-09</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>169.05</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>윤중모</DONOR_NAME>
+    <TITLE>기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 윤중모의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-02-01</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>164.82</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>전민조</DONOR_NAME>
+    <TITLE>전민조 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 전민조 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-10</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>106.47</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>전민조</DONOR_NAME>
+    <TITLE>학창시절과 베트남 파병, 그리고 사진과의 만남</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 전민조의 학창시절과 베트남에서 외신 종군기자들을 통해 사진과 만나게 된 사연에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-10</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>185.25</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>전민조</DONOR_NAME>
+    <TITLE>서라벌 예술대학 사진학과 대학시절</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 전민조의 서라벌 예술대학 사진학과 시절 사진 활동에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-10</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>163.73</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>전민조</DONOR_NAME>
+    <TITLE>언론사 사진기자 근무시절</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 전민조의 한국일보, 동아일보 사진기자 근무시절 사진활동에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-10</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>248.82</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>전민조</DONOR_NAME>
+    <TITLE>전민조 기증자료 소개</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 전민조의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2018-01-10</REGISTER_DATE>
+    <MODITY_DATE>2018-06-01</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>260.65</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>정운학</DONOR_NAME>
+    <TITLE>6.25 전쟁과 유년시절</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 정운학의 유년시절과 6.25 전쟁 경험담 구술영상이다</LINE_DESC>
+    <REGISTER_DATE>2016-01-04</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,945.73</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>정운학</DONOR_NAME>
+    <TITLE>청계천 인쇄공의 서울 정착기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 정운학의 청계천 인쇄공으로 일했던 고교시절과 당시 청계천과 종로 모습에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-04</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,890.09</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>정운학</DONOR_NAME>
+    <TITLE>학생에서 군인까지, 격변의 1960년대</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 정운학의 5.16 군사정변 직후 1960년대 군생활에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-04</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,807.5</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>정운학</DONOR_NAME>
+    <TITLE>예비군 동기들과 함께 설립한 새마을금고</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 정운학의 새마을금고 설립과 새마을지도자에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-04</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,407.95</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>정운학</DONOR_NAME>
+    <TITLE>'혁명공약' 등 기증자료 21건 21점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 정운학의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-04</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,945.79</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>정운학</DONOR_NAME>
+    <TITLE>정운학 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 정운학 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-04</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>937.46</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>장흥녀</DONOR_NAME>
+    <TITLE>가족 피난사 - 독립운동과 6.25 전쟁</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 장흥녀의 유년시절과 6.25 전쟁 피난에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-10</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>157.59</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>장흥녀</DONOR_NAME>
+    <TITLE>광복 이후 반세기, 교육 현장의 모습</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 장흥녀의 교직생활과 1950년대~90년대 교육 현장의 변천에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-10</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>112.97</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>장흥녀</DONOR_NAME>
+    <TITLE>한복에서 미니스커트까지</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 장흥녀의 1960년대~80년대 생활사에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-10</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>111.18</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>장흥녀</DONOR_NAME>
+    <TITLE>'교동국민학교 임용장' 등 기증자료 75건 90점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 장흥녀의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-10</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>126.86</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>장흥녀</DONOR_NAME>
+    <TITLE>장흥녀 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 장흥녀 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-10</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>69.8</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손복규</DONOR_NAME>
+    <TITLE>베트남 전선에서 주고받은 러브레터</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손복규의 유년시절과 부인 여영숙과의 결혼에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-06-15</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>2,000.96</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손복규</DONOR_NAME>
+    <TITLE>베트남 전쟁 파병과 태권도 교관 생활</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손복규의 베트남 파병과 태권도 교관 생활에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-06-15</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,838.99</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손복규</DONOR_NAME>
+    <TITLE>대만지역 태권도 전파와 교육</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손복규의 1970년대 대만 태권도 교관 활동과 대만에서의 한인 활동에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-06-15</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,898.76</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손복규</DONOR_NAME>
+    <TITLE>제24회 서울 올림픽의 성화봉송 주자</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손복규의 제24회 서울올림픽 성화봉송에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-06-15</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,146.7</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손복규</DONOR_NAME>
+    <TITLE>'88서울올림픽 성화봉' 등 기증자료 85건 852점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손복규의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-06-15</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,333.42</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>손복규</DONOR_NAME>
+    <TITLE>손복규 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 손복규 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-06-15</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>914.15</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>6.25 전쟁, 학도병 참전과 흥남철수</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년의 6.25 전쟁 학도병 참전과 흥남철수에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>2,133.28</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>대한민국 제1호 기술사</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년의 제1회 기술사 시험 합격과 황지선 철도 개통 등에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,577.38</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>철도의 근대화와 경부고속도로 설계</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년의 경부철도 시간단축과 경부고속도로 도상설계에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,444.6</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>서울지하철 1호선 건설</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년의 서울 지하철 1호선 건설에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,618.8</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>서울 도심의 개발</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년의 서울 도심 개발과 주요 토목공사에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,655.01</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>'서울지하철 착공기념패' 등 기증자료 57건 59점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,589.75</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>김명년</DONOR_NAME>
+    <TITLE>김명년 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 김명년 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>885.37</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이병태</DONOR_NAME>
+    <TITLE>한강을 건너 경주까지, 6.25 전쟁과 피난</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이병태의 6.25 전쟁 피난과 피난학교 생활에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-07</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,943.75</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이병태</DONOR_NAME>
+    <TITLE>1960년 4월 19일, 혁명의 현장과 기록</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이병태의 4.19 혁명 경험담에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-07</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,758.92</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이병태</DONOR_NAME>
+    <TITLE>'4.19 혁명 기록 일기장' 등 기증자료 4건 4점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이병태의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-07</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,008.67</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이병태</DONOR_NAME>
+    <TITLE>이병태 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이병태 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-07</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>835.37</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상태</DONOR_NAME>
+    <TITLE>1940~60년대, 서산 이씨 남매의 성장기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태·이상옥의 출생과 유년시절에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>2,234.63</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상옥</DONOR_NAME>
+    <TITLE>1940~60년대, 서산 이씨 남매의 성장기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태·이상옥의 출생과 유년시절에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>2,234.63</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상태</DONOR_NAME>
+    <TITLE>공직생활과 경부고속도로 건설</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태의 경부고속도로 건설에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>960.67</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상옥</DONOR_NAME>
+    <TITLE>공직생활과 경부고속도로 건설</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태의 경부고속도로 건설에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>960.67</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상태</DONOR_NAME>
+    <TITLE>사회봉사 활동과 서산라이온스 클럽</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태·이상옥의 사회봉사 활동에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,693.77</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상옥</DONOR_NAME>
+    <TITLE>사회봉사 활동과 서산라이온스 클럽</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태·이상옥의 사회봉사 활동에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,693.77</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상옥</DONOR_NAME>
+    <TITLE>'유치원졸업 기념사진' 등 이상옥 기증자료 13건 35점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상옥의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,380</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상태</DONOR_NAME>
+    <TITLE>'중·고등학교 재학시절 모자' 등 이상태 기증자료 80건 293점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,538.11</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상태</DONOR_NAME>
+    <TITLE>이상태·이상옥 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태·이상옥 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,110.41</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>이상옥</DONOR_NAME>
+    <TITLE>이상태·이상옥 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 이상태·이상옥 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2016-01-08</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>1,110.41</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>주상근</DONOR_NAME>
+    <TITLE>빼앗긴 건 쌀보리뿐만이 아니었다</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 주상근의 일제강점기 학교생활에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-12</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>108.05</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>주상근</DONOR_NAME>
+    <TITLE>1945년 8월 15일, 충주 소년의 기억</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 주상근의 8.15 광복 기억에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-12</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>66.67</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>주상근</DONOR_NAME>
+    <TITLE>6.25 전쟁의 경험담: 스물 세 살의 포로</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 주상근의 6.25 전쟁 당시 포로가 되었던 경험담 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-12</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>162.62</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>주상근</DONOR_NAME>
+    <TITLE>1940~70년대, 철도청 공무원 생활</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 주상근의 철도청 공직생활에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-12</REGISTER_DATE>
+    <MODITY_DATE>2018-02-23</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>52.1</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>주상근</DONOR_NAME>
+    <TITLE>'국가유공자 증서' 등 11건 11점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 주상근의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-12</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>66.87</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>주상근</DONOR_NAME>
+    <TITLE>주상근 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 주상근 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-12</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>77.3</FILE_SIZE_MB_>
+    <KOGLCD>4유형</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송백진</DONOR_NAME>
+    <TITLE>1920년, 화성군에서의 출생과 일상</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송백진의 출생과 유년시절에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-03</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>102.97</FILE_SIZE_MB_>
+    <KOGLCD>없음</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송백진</DONOR_NAME>
+    <TITLE>소학교 시절, 나는 호시야마였다</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송백진의 일제강점기 초등교육에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-03</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>126.93</FILE_SIZE_MB_>
+    <KOGLCD>없음</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송백진</DONOR_NAME>
+    <TITLE>일제식민시대, 수진농장과 반전농장</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송백진의 일제강점기 당시 부천의 일본인 경영 농장과 농업 수탈에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-03</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>163.43</FILE_SIZE_MB_>
+    <KOGLCD>없음</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송백진</DONOR_NAME>
+    <TITLE>1940년대 초, 미쯔비시 제강 주식회사 생활</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송백진의 일제강점기 미쯔비시 제강 주식회사 근로에 관한 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-03</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>118.95</FILE_SIZE_MB_>
+    <KOGLCD>없음</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송백진</DONOR_NAME>
+    <TITLE>'칙명교지' 등 기증자료 5건 5점</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송백진의 기증자료 소개 구술영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-03</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>98.77</FILE_SIZE_MB_>
+    <KOGLCD>없음</KOGLCD>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <DONOR_NAME>송백진</DONOR_NAME>
+    <TITLE>송백진 구술영상 간략보기</TITLE>
+    <AGE_INFO>2010년대</AGE_INFO>
+    <LINE_DESC>기증자 송백진 구술영상의 3분 하이라이트 영상이다.</LINE_DESC>
+    <REGISTER_DATE>2015-11-03</REGISTER_DATE>
+    <MODITY_DATE>2016-03-30</MODITY_DATE>
+    <MOVIE_CD>기증자 구술영상</MOVIE_CD>
+    <FILE_FMAT>mp4</FILE_FMAT>
+    <FILE_SIZE_MB_>74.98</FILE_SIZE_MB_>
+    <KOGLCD>없음</KOGLCD>
+  </DATA_RECORD>
+</DATA_RESULT>

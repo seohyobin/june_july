@@ -1,0 +1,54 @@
+http://127.0.0.1:8080/JSP/0511_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp
+http://localhost:8080/JSP/0512AJAX_DTO_DAO/쇼핑몰고객관리0512/kurly_user_signup_action.jsp
+
+http://localhost:8080/JSP/0516마켓컬리_AJAX_DTO_DAO/쇼핑몰고객관리0516/kurly_user_signup_action.jsp
+
+
+CREATE TABLE kurly_table(
+idx            INT(11)        NOT NULL  auto_increment,
+user_id      VARCHAR(16)  NOT NULL ,
+user_pw      VARCHAR(16)  NOT NULL ,
+user_name    VARCHAR(30)  NOT NULL ,
+user_email   VARCHAR(250) NOT NULL ,
+user_hp      VARCHAR(13)  NOT NULL ,
+user_addr    VARCHAR(250) NOT NULL ,
+user_gender  VARCHAR(4),
+user_birth   VARCHAR(10),
+gaib_date    TIMESTAMP   DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (idx, user_id, user_email)
+);
+
+localhost:8080/JSP/0508_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_signup.jsp
+localhost:8080/JSP/0508_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_update.jsp
+localhost:8080/JSP/0508_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_delete.jsp
+localhost:8080/JSP/0508_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_signin.jsp
+localhost:8080/JSP/0508_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_main.jsp
+localhost:8080/JSP/0509_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_update.jsp
+localhost:8080/JSP/0509_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_main.jsp
+localhost:8080/JSP/0509_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_checkbox.html
+localhost:8080/JSP/0509_JSP_MVC_모델링/쇼핑몰고객관리/kurly_user_ArrayList.jsp
+
+form ->method post get 전송창 주소창에 네트워크 통해서 노출이되서 가~  쿼리스트링 노출 => get 방식///post 는 노출안돼!!!
+
+
+
+//파라미터
+String name = request.getParameter("이름");
+String id = request.getParameter("아이디");
+String pw = request.getParameter("pw");
+
+<input name = "name" value="<%= name %>">
+<input name = "id"   value="<%= id %>">
+<input name = "pw"   value="<%= pw %>">
+
+
+개발자가 자바 소스작성(코딩) 
+=> 0.서블릿 환경설정 담당 파일 WEB.XML
+=> 1.서블릿소스.java[UserDAO.java, UserDTO.java] 
+=> 2.[컴파일 번역] 
+=> 3.자바클래스 생성 [UserDAO.class, UserDTO.class](이진파일 bin)
+=> 4.등록 =>서블릿컨테이너[톰캣] 
+=> 5.실행&연동 데이터베이스 [jdbc] <=> [데이터베이스] 
+=> 6.서블릿(요청(HTTP OR HTTPS request)을 받으면 
+=> 7.응답(HTTP OR HTTPS response) 서블릭 메소드(CRUD)가 실행
+=> 8.결과출력 (publishing) 홈페이지 (디자인 HTML CSS SCSS REACT) HTML(HTTP OR HTTPS 통신) 

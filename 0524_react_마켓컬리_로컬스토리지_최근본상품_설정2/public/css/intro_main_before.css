@@ -1,0 +1,236 @@
+#wrap {
+  width: 100%;
+}
+#wrap .intro {
+  width: 100%;
+}
+#wrap .intro #section1 {
+  width: 100%;
+}
+#wrap .intro #section1 .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap .intro #section1 .container .gap {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap {
+  width: 2500%;
+  display: flex;
+  margin: 0 0 0 -100%;
+  position: relative;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap .slide a {
+  display: block;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .page-count-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 2;
+  bottom: 30px;
+  left: 50%;
+  width: 55px;
+  height: 23px;
+  text-align: center;
+  margin: 0 0 0 370px;
+  border-radius: 12px;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .page-count-box em {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .page-count-box i {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 5px;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .left-arrow-btn {
+  display: none;
+  position: absolute;
+  top: 375px;
+  left: 320px;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+#wrap .intro #section1 .container .gap .content .slide_container .right-arrow-btn {
+  display: none;
+  position: absolute;
+  top: 375px;
+  right: 320px;
+  z-index: 2;
+}
+#wrap .intro #sectionTopBanner {
+  width: 100%;
+}
+#wrap .intro #sectionTopBanner .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+}
+#wrap .intro #sectionTopBanner .container .gap .content {
+  width: 100%;
+}
+#wrap .intro #sectionTopBanner .container .gap .content a {
+  width: 100%;
+  display: block;
+}
+#wrap .intro #sectionTopBanner .container .gap .content a img {
+  width: 1050px;
+  height: 140px;
+}
+#wrap .intro #section2 {
+  width: 100%;
+  padding: 80px 0;
+  position: relative;
+}
+#wrap .intro #section2 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+  position: relative;
+}
+#wrap .intro #section2 .container .gap {
+  width: 100%;
+}
+#wrap .intro #section2 .container .gap .title {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+#wrap .intro #section2 .container .gap .title h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+#wrap .intro #section2 .container .gap .content {
+  width: 100%;
+}
+#wrap .intro #section2 .container .gap .content .slide-container {
+  width: 100%;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 900%;
+  display: flex;
+  margin: 0 0 0 -200%;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 25%;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal {
+  padding: 0 9px;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a {
+  display: block;
+  width: 100%;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .img-box {
+  width: 100%;
+  position: relative;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .img-box > img {
+  width: 249px;
+  height: 320px;
+  z-index: 1;
+  position: relative;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .img-box > span {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  z-index: 2;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .img-box > span img {
+  width: auto;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box {
+  width: 100%;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul {
+  width: 100%;
+  padding: 15px 0 0 0;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li {
+  width: 100%;
+  padding: 5px 0;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li:first-child {
+  font-size: 14px;
+  color: #999;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li:nth-child(3) {
+  font-size: 12px;
+  color: #999;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li strong, #wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li em {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li span.rate-price {
+  color: #fa622f;
+  font-size: 16px;
+  font-weight: 800;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li span.pan-price {
+  font-size: 16px;
+  color: #333;
+  font-weight: 800;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li s {
+  font-size: 14px;
+  color: #b5b5b5;
+}
+#wrap .intro #section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gal a .tex-box ul li:last-child {
+  padding: 2px 8px 4px 8px;
+  width: 75.75px;
+  height: 22px;
+  color: #5f0080;
+  font-size: 12px;
+  font-weight: 500;
+}
+#wrap .intro #section2 .left-arrorw-btn {
+  position: absolute;
+  left: 50%;
+  top: 275px;
+  margin: 0 0 0 -557px;
+  z-index: 2;
+}
+#wrap .intro #section2 .left-arrorw-btn img {
+  width: auto;
+}
+#wrap .intro #section2 .right-arrorw-btn {
+  position: absolute;
+  right: 50%;
+  top: 275px;
+  margin: 0 -557px 0 0;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+#wrap .intro #section2 .right-arrorw-btn img {
+  width: auto;
+}

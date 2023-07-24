@@ -1,0 +1,144 @@
+#notice {
+  width: 100%;
+  padding: 50px 0 80px 0;
+}
+#notice #container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+}
+#notice #container #noticeRight {
+  width: 850px;
+  padding: 0 0 0 40px;
+}
+#notice #container #noticeRight .container {
+  width: 100%;
+}
+#notice #container #noticeRight .container .title {
+  width: 100%;
+  height: 68px;
+}
+#notice #container #noticeRight .container .title h3 {
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  color: #333;
+  align-items: center;
+  height: 28px;
+}
+#notice #container #noticeRight .container .title h3 span {
+  color: #999;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+}
+#notice #container #noticeRight .container .content {
+  width: 100%;
+}
+#notice #container #noticeRight .container .content dl dt {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  border-top: 2px solid #666;
+  text-align: center;
+  color: rgb(76, 76, 76);
+  height: 56px;
+  width: 100%;
+}
+#notice #container #noticeRight .container .content dl dt span:nth-child(1) {
+  width: 50px;
+}
+#notice #container #noticeRight .container .content dl dt span:nth-child(2) {
+  width: 570px;
+  text-align: center;
+  text-indent: 20px;
+}
+#notice #container #noticeRight .container .content dl dt span:nth-child(3) {
+  width: 100px;
+}
+#notice #container #noticeRight .container .content dl dt span:nth-child(4) {
+  width: 100px;
+}
+#notice #container #noticeRight .container .content dl dd {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+#notice #container #noticeRight .container .content dl dd:hover {
+  background: #fcfcfc;
+}
+#notice #container #noticeRight .container .content dl dd:nth-of-type(odd) {
+  background: #fafafa;
+}
+#notice #container #noticeRight .container .content dl dd > a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(76, 76, 76);
+  height: 54px;
+}
+#notice #container #noticeRight .container .content dl dd > a > span:nth-child(1) {
+  width: 50px;
+}
+#notice #container #noticeRight .container .content dl dd > a > span:nth-child(2) {
+  width: 570px;
+  text-align: left;
+  text-indent: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 30px 0 0;
+}
+#notice #container #noticeRight .container .content dl dd > a > span:nth-child(3) {
+  width: 100px;
+}
+#notice #container #noticeRight .container .content dl dd > a > span:nth-child(4) {
+  width: 100px;
+}
+#notice #container #noticeRight .container .content .page-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+#notice #container #noticeRight .container .content .page-button-box > a {
+  padding: 0 5px;
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 12px 12px;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+#notice #container #noticeRight .container .content .page-button-box > a.prev-btn {
+  margin: 0 8px 0 0;
+}
+#notice #container #noticeRight .container .content .page-button-box > a.next-btn {
+  margin: 0 0 0 8px;
+}
+#notice #container #noticeRight .container .content .page-button-box > a.on {
+  background-color: #5f0080;
+  border-color: #5f0080;
+  color: #fff;
+}
+#notice .button-box {
+  width: 100%;
+  padding: 50px 0 0 0;
+  text-align: right;
+}
+#notice .button-box > button {
+  width: 130px;
+  height: 50px;
+  background-color: #5f0080;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+}

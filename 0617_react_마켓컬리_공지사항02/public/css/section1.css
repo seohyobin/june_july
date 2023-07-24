@@ -1,0 +1,80 @@
+#wrap {
+  width: 100%;
+}
+#wrap .intro {
+  width: 100%;
+}
+#wrap .intro #section1 {
+  width: 100%;
+}
+#wrap .intro #section1 .container {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container {
+  width: 100%;
+  position: relative;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap {
+  width: 2500%;
+  display: flex;
+  margin: 0 0 0 -100%;
+  position: relative;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap .slide a {
+  display: block;
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .left-arrow-btn {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+#wrap .intro #section1 .container .gap .content .slide_container .right-arrow-btn {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 15%;
+  z-index: 2;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .page-count-box {
+  position: absolute;
+  z-index: 2;
+  bottom: 60px;
+  left: 50%;
+  margin: 0 0 0 370px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px 15px;
+  border-radius: 12px;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .page-count-box em {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+#wrap .intro #section1 .container .gap .content .slide_container .page-count-box i {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 5px;
+}

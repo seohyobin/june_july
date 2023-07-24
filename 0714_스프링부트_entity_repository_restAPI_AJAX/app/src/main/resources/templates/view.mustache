@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/view.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <span class="home">
+                 <a href="./index.html">HOME</a>
+            </span>
+           <span class="view">
+                <a href="/write.do">글쓰기</a>
+           </span>
+        </nav>
+    </header>
+
+    <div id="view">
+        <div class="container">
+            <div class="title">
+                <h2>LIST</h2>
+            </div>
+            <form name="viewForm" id="viewForm" action="view.do">
+                <ul>
+                    <li>{{UserName}}</li>
+                    <li>{{userHp}}</li>
+                    <li>{{userEmail}}</li>
+                    <li>{{userSubject}}</li>
+                    <li>{{userContent}}</li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

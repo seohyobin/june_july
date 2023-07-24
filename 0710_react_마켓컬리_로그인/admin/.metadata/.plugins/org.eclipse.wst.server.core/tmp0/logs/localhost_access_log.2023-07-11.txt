@@ -1,0 +1,2 @@
+127.0.0.1 - - [11/Jul/2023:13:49:22 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Jul/2023:14:17:20 +0900] "POST /kurly/idCheckAction.jsp?user_id=dfgdfg HTTP/1.1" 404 819

@@ -1,0 +1,23 @@
+http://localhost:8080/JSP/0516마켓컬리_AJAX_DTO_DAO/쇼핑몰고객관리0516/kurly_user_signup_action.jsp
+
+setupProxys.js
+
+ //프록시주소는 1개만 지원 => 미들웨어(패키지) 설치
+
+   "proxy": {
+    "/jsp": {
+      "target": "http://localhost:8080"
+    },
+    "/php": {
+      "target": "http://localhost:8080"
+    },
+    "/asp": {
+      "target": "http://localhost:8080"
+    }
+  }
+}
+
+
+ npm i -g yarn 
+ yarn add http-proxy-middleware 
+ //http-proxy-middleware

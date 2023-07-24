@@ -1,0 +1,118 @@
+#noticeUpdate {
+  width: 100%;
+  padding: 70px 0 100px 0;
+}
+#noticeUpdate > .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+}
+#noticeUpdate > .container .left {
+  width: 200px;
+}
+#noticeUpdate > .container .right {
+  width: 850px;
+  padding: 0 0 0 40px;
+}
+#noticeUpdate > .container .right .title {
+  width: 100%;
+  text-align: left;
+  padding: 0 0 40px 0;
+}
+#noticeUpdate > .container .right .title h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 500;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+#noticeUpdate > .container .right .content {
+  width: 100%;
+  border-top: 2px solid #333;
+}
+#noticeUpdate > .container .right .content form {
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+#noticeUpdate > .container .right .content form ul {
+  width: 100%;
+}
+#noticeUpdate > .container .right .content form ul > li {
+  width: 100%;
+  padding: 0 0 0 80px;
+  position: relative;
+}
+#noticeUpdate > .container .right .content form ul > li:first-child {
+  padding-bottom: 20px;
+}
+#noticeUpdate > .container .right .content form ul > li label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+#noticeUpdate > .container .right .content form ul > li label i {
+  color: red;
+  font-size: 12px;
+  margin: 0 0 0 2px;
+  transform: translateY(-2px);
+}
+#noticeUpdate > .container .right .content form ul > li > input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 3px;
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+  transition: all 0.3s;
+  padding: 0 0 0 20px;
+  margin-bottom: 20px;
+}
+#noticeUpdate > .container .right .content form ul > li > input:focus {
+  outline: 1px solid #888;
+}
+#noticeUpdate > .container .right .content form ul > li > textarea {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 3px;
+  resize: none;
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+  transition: all 0.3s;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#noticeUpdate > .container .right .content form .button-box {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+#noticeUpdate > .container .right .content form .button-box .left {
+  width: 100%;
+  text-align: right;
+}
+#noticeUpdate > .container .right .content form .button-box .left button {
+  margin: 0 5px;
+  height: 40px;
+  width: 150px;
+  padding: 0 10px;
+  background-color: #5f0080;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 600;
+}
+#noticeUpdate > .container .right .content form .button-box .left button:hover {
+  background-color: #fff;
+  color: #5f0080;
+  border: 1px solid #5f0080;
+}

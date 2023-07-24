@@ -1,0 +1,24 @@
+#wrap #sub4 {
+  width: 100%;
+}
+#wrap #sub4 #special {
+  width: 100%;
+}
+#wrap #sub4 #special .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #sub4 #special .container .gap {
+  width: 100%;
+}
+#wrap #sub4 #special .container .gap .content {
+  width: 100%;
+}
+#wrap #sub4 #special .container .gap .content ul {
+  width: 100%;
+}
+#wrap #sub4 #special .container .gap .content ul li {
+  width: 100%;
+  padding: 0 0 10px 0;
+}

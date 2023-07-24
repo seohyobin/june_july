@@ -1,0 +1,131 @@
+   // 폼데이터를 파라미터 데이터로 속성을 생성한다.
+            let formData = new URLSearchParams();
+            formData.append("user_id",      state.아이디);
+            formData.append("user_pw",      state.비밀번호);
+            formData.append("user_irum",    state.이름);
+            formData.append("user_email",   state.이메일);
+            formData.append("user_hp",      state.휴대폰.replace(regExpHp, '$1-$2-$3'));
+            formData.append("user_addr",    `${state.주소1} ${state.주소2}`);
+            formData.append("user_gender",  state.성별);
+            formData.append("user_birth",   `${state.생년}-${state.생월}-${state.생일}`);
+            formData.append("user_chooga",  `${state.추가입력사항} ${state.추천인아이디} ${state.참여이벤트명}`);
+            formData.append("user_service", 약관동의);
+
+           
+            // console.log( formData );
+            //1. JSP kurly_user_signup_action.jsp 액션파일 웹문서 상단 헤더에 CORS 헤더 추가하기
+            //2. 서블릿컨테이너(톰켓서버 켜기)
+
+            // http://192.168.40.81:8080/jsp/0512_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp
+            // http://localhost:8080/jsp/0512_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp
+            // http://127.0.0.1:8080/jsp/0512_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp
+            // AJAX
+            // $.ajax({
+            //     //url:  'http://127.0.0.1:8080/jsp/0512_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action_test_parameter.jsp',
+            //     // url:  'http://127.0.0.1:8080/jsp/0512_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action_test_useBean.jsp',
+            //     // url:  'http://127.0.0.1:8080/jsp/0512_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp',
+            //     type: 'POST',
+            //     data: formData,
+            //     success(res){
+            //         console.log('AJAX 성공!');
+            //         console.log(res);
+            //         console.log( JSON.parse(res) );
+            //         setState({
+            //             ...state,
+            //             isConfirmModal: true,
+            //             confirmMsg: '마켓컬리 회원가입을 축하드립니다.'
+            //         });
+
+            //         // 홈 인트로페이지로 이동
+            //         window.location.pathname = '/메인';
+            //     },
+            //     error(err){
+            //         console.log( 'AJAX 실패!' + err );
+            //     }
+            // });
+
+            // [3] FETCH() 
+            // fetch('/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp',{
+            //     method: 'POST',
+            //     body: formData
+            // })
+            // .then((res)=>res.json())
+            // .then((res)=>{
+            //     console.log( 'FETCH API 성공' );
+            //     console.log( res );
+            // });
+
+
+
+             // [2-2] AXIOS() GET 구현 => 1. url package.json 에서 proxy 설정
+            // axios.get('/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp',{                
+            //     params: formData
+            // })
+            // .then((res)=>{
+            //     console.log( 'AXIOS 성공' );
+            //     console.log( res );
+            //     console.log( res.data );
+            // })
+            // .catch((err)=>{
+            //     console.log( 'AXIOS 실패!' + err );
+            // });
+
+
+             // [2-1] AXIOS() GET 구현 => 1. url package.json 에서 proxy 설정
+            //  axios({                
+            //     url: '/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp',
+            //     method: 'GET',
+            //     params: formData
+            // })
+            // .then((res)=>{
+            //     console.log( 'AXIOS 성공' );
+            //     console.log( res );
+            //     console.log( res.data );
+            // })
+            // .catch((err)=>{
+            //     console.log( 'AXIOS 실패!' + err );
+            // });
+
+
+
+            // [1] AXIOS() POST 구현 => 1. url package.json 에서 proxy 설정
+            //                     2. data : {} , new URLSearchParams(); 파라미터 속성 만들기
+
+            // 프로미스 반드시 ES6 사용 화살표 함수 사용
+            // async => await
+            // AXIOS()
+            // FETCH()
+            // [1-2] AXIOS() POST 구현 => 1. url package.json 에서 proxy 설정
+            // axios.post('/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp',{
+            //     data: {},
+            //     params: formData
+            // })
+            // .then((res)=>{
+            //     console.log( 'AXIOS 성공' );
+            //     console.log( res );
+            //     console.log( res.data );
+            // })
+            // .catch((err)=>{
+            //     console.log( 'AXIOS 실패!' + err );
+            // });
+            
+
+
+            // [1-1] AXIOS() POST 구현 => 1. url package.json 에서 proxy 설정
+            axios({
+                // url: '/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action_test_parameter.jsp',
+                // url: '/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action_test_useBean.jsp',
+                url: '/jsp/0516_MVC_모델링_프로젝트_AJAX_DTO_DAO/쇼핑몰고객관리/kurly_user_signup_action.jsp',
+                method: 'POST', // GET
+                data: {},
+                params: formData
+            })
+            .then((res)=>{
+                console.log( 'AXIOS 성공' );
+            })
+            .catch((err)=>{
+                console.log( 'AXIOS 실패!' + err );
+            });
+
+        }
+        

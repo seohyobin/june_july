@@ -1,0 +1,18 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+#header{}
+#header{}
+
+
+
+
+#list{width:100%; background:#fff; padding:100px;}
+#list .container-list { width:100%; max-width:900px; margin:0 auto; }
+#list .container-list .title{font-weight:600; font-size:44px; text-align:center; padding: 50px 0 50px 0; }
+#list .container-list .title h1 {font-weight:600; font-size:32px; }
+#list .container-list form {width:100%;}
+#list .container-list form table{ width:100%; border-collapse:collapse;}
+#list .container-list form table th,td{height:45px; border-bottom:1px solid #ddd; border-top:1px solid #222;}
+#list .container-list form table tr{}
+#list .container-list form table th{border-top:1px solid #222; border-bottom:1px solid #ddd;}
+#list .container-list form table td{text-align:center;}

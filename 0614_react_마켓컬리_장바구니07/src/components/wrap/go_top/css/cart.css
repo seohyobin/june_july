@@ -1,0 +1,400 @@
+#cart {
+  width: 100%;
+  padding: 70px 0 100px 0;
+}
+#cart .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#cart .container .gap {
+  width: 100%;
+}
+#cart .container .gap .title {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#cart .container .gap .title h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+#cart .container .gap .content {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#cart .container .gap .content .left {
+  width: 740px;
+  height: auto;
+}
+#cart .container .gap .content .left > ul {
+  width: 100%;
+}
+#cart .container .gap .content .left > ul > li {
+  width: 100%;
+}
+#cart .container .gap .content .left > ul > li:first-child span button, #cart .container .gap .content .left > ul > li:last-child span button {
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  height: 30px;
+}
+#cart .container .gap .content .left > ul > li:first-child span button:first-of-type, #cart .container .gap .content .left > ul > li:last-child span button:first-of-type {
+  padding: 0 0 0 35px;
+  background: transparent url(../../img/cart/icon-check-off.svg) no-repeat 0 50%;
+  background-size: 24px 24px;
+}
+#cart .container .gap .content .left > ul > li:first-child span button:first-of-type strong, #cart .container .gap .content .left > ul > li:last-child span button:first-of-type strong {
+  margin: 0 0 0 5px;
+}
+#cart .container .gap .content .left > ul > li:first-child span button:first-of-type strong em, #cart .container .gap .content .left > ul > li:last-child span button:first-of-type strong em {
+  margin: 0 1px;
+}
+#cart .container .gap .content .left > ul > li:first-child span button:first-of-type strong i, #cart .container .gap .content .left > ul > li:last-child span button:first-of-type strong i {
+  margin: 0 1px;
+}
+#cart .container .gap .content .left > ul > li:first-child span button.on.select-all-btn, #cart .container .gap .content .left > ul > li:last-child span button.on.select-all-btn {
+  background-image: url(../../img/cart/icon-check-on.svg);
+}
+#cart .container .gap .content .left > ul > li:first-child span button.delete-btn, #cart .container .gap .content .left > ul > li:last-child span button.delete-btn {
+  cursor: default;
+}
+#cart .container .gap .content .left > ul > li:first-child span button.delete-btn.on, #cart .container .gap .content .left > ul > li:last-child span button.delete-btn.on {
+  cursor: pointer;
+  color: red;
+}
+#cart .container .gap .content .left > ul > li:first-child span > i, #cart .container .gap .content .left > ul > li:last-child span > i {
+  font-size: 12px;
+  color: #bbb;
+  font-weight: 400;
+  margin: 0 15px;
+}
+#cart .container .gap .content .left > ul > li:first-child {
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #333;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) p.empty {
+  width: 100%;
+  padding: 120px 0;
+  height: 300px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #b5b5b5;
+  border-bottom: 1px solid #e9e9e9;
+  margin: 0 0 10px 0;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div {
+  width: 100%;
+  overflow: hidden;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt {
+  border-top: 1px solid #333;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div {
+  padding: 15px 0;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:first-child {
+  display: flex;
+  align-items: center;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:first-child img {
+  width: 30px;
+  margin: 0 10px 0 0;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:first-child img.on {
+  transform: rotate(720deg);
+  transition: all 0.3s ease-in-out;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:first-child h3 {
+  width: 60px;
+  color: #333;
+  font-weight: 600;
+  font-size: 17px;
+  display: inline-flex;
+  letter-spacing: -2.5px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:last-child button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:last-child button img {
+  width: 30px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dt div:last-child button img.on {
+  transform: rotate(180deg);
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd.on {
+  display: none;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul {
+  display: flex;
+  height: 78px;
+  align-items: center;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(1) {
+  width: 40px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(1) input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: url(../../../../../public/images/cart/icon-check-off.svg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(1) input[type=checkbox]:checked {
+  background: url(../../../../../public/images/cart/icon-check-on.svg) no-repeat 50% 50%;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(2) {
+  width: 60px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(2) span {
+  width: 60px;
+  height: 78px;
+  display: block;
+  background: url(../../../../../public/images/cart/16551900415l0.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(3) {
+  width: 388px;
+  padding: 0 0 0 15px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(3) a {
+  color: #555;
+  font-weight: 600;
+  font-size: 16px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) {
+  width: 88px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) div {
+  border: 1px solid #ccc;
+  display: flex;
+  width: 88px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) div button {
+  width: 33.3333%;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 28px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) div button:first-of-type {
+  background: url(../../../../../public/images/cart/icon-min-black.svg) no-repeat 50% 50%;
+  background-size: auto;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) div button:first-of-type.on {
+  background-image: url(../../../../../public/images/cart/icon-min.svg) no-repeat 50% 50%;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) div button:last-of-type {
+  background: url(../../../../../public/images/cart/icon-plus.svg) no-repeat 50% 50%;
+  background-size: auto;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(4) div strong {
+  display: flex;
+  width: 33.3333%;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(5) {
+  width: 127px;
+  text-align: right;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(5) span {
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(5) .price-sub {
+  width: 100%;
+  font-size: 14px;
+  color: rgb(181, 181, 181);
+  padding-top: 4px;
+  text-decoration: line-through;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(6) {
+  width: 39px;
+  padding: 0 0 0 9px;
+}
+#cart .container .gap .content .left > ul > li:nth-child(2) > div dl dd ul li:nth-child(6) a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(../../../../../public/images/cart/icon-delete.svg) no-repeat 50% 50%;
+}
+#cart .container .gap .content .right {
+  width: 310px;
+  padding: 45px 0 0 26px;
+  position: sticky;
+  height: auto;
+  top: 70px;
+  overflow-y: auto;
+  left: 0;
+}
+#cart .container .gap .content .right > ul {
+  width: 100%;
+}
+#cart .container .gap .content .right > ul > li {
+  width: 100%;
+}
+#cart .container .gap .content .right > ul > li:first-child {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 23px 19px 20px 19px;
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+#cart .container .gap .content .right > ul > li:first-child h3 {
+  padding: 0 0 8px 0;
+}
+#cart .container .gap .content .right > ul > li:first-child h3 img {
+  transform: translateY(-3px);
+  margin: 0 5px 0 0;
+}
+#cart .container .gap .content .right > ul > li:first-child p {
+  color: #333;
+  padding: 0 0 15px 0;
+}
+#cart .container .gap .content .right > ul > li:first-child p em {
+  color: #5f0080;
+}
+#cart .container .gap .content .right > ul > li:first-child button {
+  width: 100%;
+  height: 38px;
+  border-radius: 3px;
+  border: 1px solid #5f0080;
+  color: #5f0080;
+  background-color: #fff;
+  cursor: pointer;
+}
+#cart .container .gap .content .right > ul > li:first-child button img {
+  transform: translateY(-1px);
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) {
+  background: #fafafa;
+  padding: 23px 19px 20px 19px;
+  line-height: 180%;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 {
+  width: 100%;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 p {
+  width: 100%;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 p strong:nth-child(1) {
+  font-size: 16px;
+  font-weight: 500;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 p strong:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 p:nth-child(2) span {
+  width: 100%;
+  font-size: 12px;
+  justify-content: flex-end;
+  color: rgb(102, 102, 102);
+  display: flex;
+  padding: 5px 0 10px 0;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 .sub-add {
+  font-size: 12px;
+  display: block;
+  color: #5f0080;
+  text-align: right;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row1 .sub-add .st {
+  color: #5f0080;
+  font-size: 12px;
+  font-weight: 700;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 {
+  width: 100%;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 p {
+  color: #333;
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 p strong {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 p:nth-child(1) strong:nth-child(2) {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 p:nth-child(2) {
+  justify-content: flex-end;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 p:nth-child(2) strong {
+  font-size: 12px;
+  color: #333;
+}
+#cart .container .gap .content .right > ul > li:nth-child(2) div.row2 p:nth-child(2) strong em {
+  border-radius: 8px;
+  width: 31px;
+  height: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ffbf00;
+  padding: 0 5px;
+  border: 1px solid #ffbf00;
+  margin: 0 5px 0 0;
+}
+#cart .container .gap .content .right > ul > li:last-child {
+  background: #fff;
+  padding: 23px 0 20px 0;
+}
+#cart .container .gap .content .right > ul > li:last-child button {
+  width: 100%;
+  height: 56px;
+  background-color: #ddd;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 3px;
+}
+#cart .container .gap .content .right > ul > li:last-child p {
+  padding: 20px 5px;
+  line-height: 160%;
+  font-size: 12px;
+  color: #666;
+  letter-spacing: -1px;
+}

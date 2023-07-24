@@ -1,0 +1,20 @@
+리액트 & JSP & DAO & DTO(VO) & MYSQL
+아이디찾기
+이름, 휴대폰
+1. DAO => 메서드 만들기
+2. DTO => 속성들 가져오기
+3. 아이디찾기폼.JSP
+4. 아이디찾기액션파일.JSP
+5. 아이디찾기결과.JSP
+
+
+SELECT user_id,user_pw,user_irum,user_hp,user_gender,user_birth,user_gaib_date FROM signup_table;
+
+리액트 & JSP & DAO & DTO(VO) & MYSQL
+비밀번호찾기
+아이디, 휴대폰
+1. DAO => 메서드 만들기
+2. DTO => 속성들 가져오기
+3. 비밀번호찾기폼.JSP
+4. 비밀번호찾기액션파일.JSP
+5. 비밀번호찾기결과.JSP

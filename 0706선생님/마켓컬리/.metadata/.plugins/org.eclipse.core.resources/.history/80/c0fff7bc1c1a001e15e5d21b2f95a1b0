@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ page import = "kurly.UserDAO"  %>
+<%@ page import = "kurly.UserDTO"  %>
+
+<%
+	request.setCharacterEncoding("UTF-8");
+%> 
+
+
+<%
+	UserDTO userDTO = new UserDAO().idSearch(request.getParameter("user_irum"), request.getParameter("user_hp"));
+	
+	out.println(userDTO.getUser_id());
+	
+%>
+
+
+
+
+
+
+
+
+
